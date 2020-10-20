@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="(Sample Essay) Informational Hazard - Thinking Before Consuming" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/posts/informational-hazard-thinking-before-consuming" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/posts/informational-hazard-thinking-before-consuming"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Simply Jekyll</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">John Doe</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">Programmer (Interested in Philosophy and Math)</p>
+            </div> 
+            <div class="link-to-notes">
+                <svg height="16" width="15" viewBox="0 0 24 24" class="anchor-link">
+                    <path d="M11.96 14.945c-.067 0-.136-.01-.203-.027-1.13-.318-2.097-.986-2.795-1.932-.832-1.125-1.176-2.508-.968-3.893s.942-2.605 2.068-3.438l3.53-2.608c2.322-1.716 5.61-1.224 7.33 1.1.83 1.127 1.175 2.51.967 3.895s-.943 2.605-2.07 3.438l-1.48 1.094c-.333.246-.804.175-1.05-.158-.246-.334-.176-.804.158-1.05l1.48-1.095c.803-.592 1.327-1.463 1.476-2.45.148-.988-.098-1.975-.69-2.778-1.225-1.656-3.572-2.01-5.23-.784l-3.53 2.608c-.802.593-1.326 1.464-1.475 2.45-.15.99.097 1.975.69 2.778.498.675 1.187 1.15 1.992 1.377.4.114.633.528.52.928-.092.33-.394.547-.722.547z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.27 22.054c-1.61 0-3.197-.735-4.225-2.125-.832-1.127-1.176-2.51-.968-3.894s.943-2.605 2.07-3.438l1.478-1.094c.334-.245.805-.175 1.05.158s.177.804-.157 1.05l-1.48 1.095c-.803.593-1.326 1.464-1.475 2.45-.148.99.097 1.975.69 2.778 1.225 1.657 3.57 2.01 5.23.785l3.528-2.608c1.658-1.225 2.01-3.57.785-5.23-.498-.674-1.187-1.15-1.992-1.376-.4-.113-.633-.527-.52-.927.112-.4.528-.63.926-.522 1.13.318 2.096.986 2.794 1.932 1.717 2.324 1.224 5.612-1.1 7.33l-3.53 2.608c-.933.693-2.023 1.026-3.105 1.026z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <a href="/notes">https://simply-jekyll.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="/assets/img/profile.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <a style="text-decoration: none;" href="/about">
+                <svg class="icon-home" width="18" height="19" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.9777 21.6138V19.6138C20.9777 18.553 20.5563 17.5356 19.8061 16.7854C19.056 16.0353 18.0386 15.6138 16.9777 15.6138H8.97768C7.91682 15.6138 6.8994 16.0353 6.14926 16.7854C5.39911 17.5356 4.97768 18.553 4.97768 19.6138V21.6138"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.9777 11.6138C15.1868 11.6138 16.9777 9.82298 16.9777 7.61385C16.9777 5.40471 15.1868 3.61385 12.9777 3.61385C10.7685 3.61385 8.97768 5.40471 8.97768 7.61385C8.97768 9.82298 10.7685 11.6138 12.9777 11.6138Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <a style="text-decoration: none;" href="/tags">
+            <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                               
+            <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <a style="text-decoration: none;" href="/feed.xml">
+                <svg class="icon-rss" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 11.5C6.38695 11.5 8.67613 12.4482 10.364 14.136C12.0518 15.8239 13 18.1131 13 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 4.5C8.24346 4.5 12.3131 6.18571 15.3137 9.18629C18.3143 12.1869 20 16.2565 20 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 20.5C5.55228 20.5 6 20.0523 6 19.5C6 18.9477 5.55228 18.5 5 18.5C4.44772 18.5 4 18.9477 4 19.5C4 20.0523 4.44772 20.5 5 20.5Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>    
+            <p class="rss-p">RSS</p>
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Simply Jekyll..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="main-site-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Home</p>    
+    </div></header><main>
+                <h1>(Sample Essay) Informational Hazard - Thinking Before Consuming</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-June-2020" class="tag">June-01-2020</a></li>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#Practical" class="tag">Practical</a></li></ul><div class="content"><p>Information is probably the single most addictive substance, even more so than heroin in it can give you the kick even before you have consumed it, let alone waiting for the system to digest it. And what is more interesting is, the quality and the content(in chemist-speak, the composition, and the dosage) that is required to stimulate an individual varies for each individual. For some, the effect kicks in at “keeping up with Kardashians”; for some, when reading editorials in the economist or the new yorker; and for some, reading self-help claptrap disguised as psychology and science. Whichever end of the spectrum you are in there is not much difference in the effect it has on you – all it does is, it consumes your senses.</p>
+
+<p>The problem is no one puts up a disclaimer about whether or not it is fit for you to consume. You have to figure it out yourself. And what is all the more disconcerting is the fact that in doing so none of us are aware of the toll it has taken on us. Consider a simple case of skimming through a newspaper(or an online news app if you are tech-savvy), how much do you retain at the end of it? So, at what point is the trade war between the US and China right now? Oh, and what is happening in the US open? Who is the current world champion in blitz-chess? What happened to the bridge that was going to be built in the who-cares where region? And then top it with some political and investment news, you have successfully deceived yourself into believing that you have hoarded all the information you could and retained nothing. I emphasize nothing!</p>
+
+<p>If you were to explain the article to someone say a couple days later, I bet all you could recall is the headline. This is the plight of pretty much everyone right now. The toll taken on our attention span due to this continuous influx of information outweighs most of the benefits of consuming it. You travel up the ladder in wealth and status this becomes far graver – you can see people competing for information, meaning, one might not like politics at all but they are now forced to hold an opinion on the president and the current affairs just to be able to contribute to verbal diarrhea to be a part of the social group and to keep up the ostensible progress.</p>
+
+<p>Now consider this, you read a New York Times piece on Venezuela’s economic collapse that states socialist policies as the primary reason, the high it can give you is indescribable, you suddenly are anti-“this” and pro-“something else”. If someone asked you your political views, you are now nothing more than a parrot regurgitating a New York Times piece as a reason for your anti-socialism stance. Okay, I am sorry I understand that citing only one article can show one in a bad light, so maybe a bunch of them?</p>
+
+<p><strong>Note</strong>: Before we go any further, I must clarify that anything that is not explicitly stated by me as my own view should not be extrapolated from the examples or the writing style.</p>
+
+<p>It is precisely because of this indolent nature of our brain that I ask you to be careful. At least in the case of occupational hazards, you are aware of the downsides, and when you do sign up you do it wittingly. But in the case of Informational Hazards, neither are we aware of the downsides nor did we sign up for it knowingly.</p>
+
+<p>Furthermore, the indispensable problem that is concomitant of free inflow of information is: <a href="https://en.wikipedia.org/wiki/Preference_falsification">preference falsification<sup ><i class="fa fa-wikipedia-w"></i>
+        </sup></a>. For reasons I don’t understand, it seems like the more the information you accumulate the more are you prone to hiding your true preferences. One theory I have is you think you have to be broad-minded at the expense of your natural instincts but what I don’t understand is how come such smart people who learn to be broad-minded do not understand the cascading effects of the palatable lie. How difficult is it to realize that this lie if prolonged could become the new truth. Is that what we want?</p>
+
+<p>Our brains have this funny little characteristic or I should say side-effect of generating biases; and when you provide them their favorite fodder a.k.a information, it not only triggers the center of knowledge, it switches on the neighboring center for bias generation too. One that I can instantly recall is that of our collective bias due to the exposure to apparent progress in terms of iPads and iPhones, all of us are made to think that the field of science and technology is evolving at a rapid pace but if you dig deeper there hasn’t been any fundamental breakthrough in the area of pure sciences since the late 1970s, which marked the invention of semiconductors. Eric Weinstein, mathematician and economist speaks about this in great detail in one of his <a href="https://www.youtube.com/watch?v=nM9f0W2KD5s">podcasts<sup ><i class="fa fa-youtube"></i></sup></a> on stagnation in science and technology with Peter Thiel. (Do check it out)</p>
+
+<p>It is not for me to tell what to read and what not to, but I what do know is, there is a mental threshold to what one can make sense of. I have spoken about this in detail in one of my previous essays on the <a href="https://raghuveer.net/posts/branching-effects-of-higher-order-thinking/">branching effects of higher-order thinking</a>. Sometimes, the mental fatigue is real, and in such cases, unnecessary consumption can have undesired effects. So the next time you read about how quantum computers use superposition to surpass conventional computers in representing bits and their states in a newspaper column or a blog post, please try to explain it your kids before you convince yourself of the apparently profound knowledge that you just acquired. Oh yeah, and please don’t draw any conclusions before you explain it to them.</p>
+
+<p>This is a subtle topic, and there are a million ways to look at it. From why it is really important in this day and age to be updated to how you might not satisfy all the system requirements for the update. To be honest, most of us do not have spec required to hold the information and use it. And there are no good developers around to fix the bugs i.e., the biases and mental fatigue. I think it is good to have your own guiding heuristic as to what do you want to consume and what you don’t. Pick your sources, moderate your intake, and always ponder on it before jumping to conclusions.</p>
+
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
+    <h4 class="medium-small">Linked References</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Introduction-to-simply-jekyll">
+                <p class="related-title">Introduction to Simply Jekyll</p>
+                <p class="related-excerpt">Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal ...</p>
+            </a></div></div>
+    <br/>
+</div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
+<div id="disqus_thread"></div>
+    <script>
+        /**
+         *RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+        this.page.url = 'http://localhost:4000/posts/informational-hazard-thinking-before-consuming';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://localhost:4000/posts/informational-hazard-thinking-before-consuming'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://raghuveerdotnet.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>

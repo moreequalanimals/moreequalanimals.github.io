@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Test page to see how the raw markdown is rendered" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Simply Jekyll</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">John Doe</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">Programmer (Interested in Philosophy and Math)</p>
+            </div> 
+            <div class="link-to-notes">
+                <svg height="16" width="15" viewBox="0 0 24 24" class="anchor-link">
+                    <path d="M11.96 14.945c-.067 0-.136-.01-.203-.027-1.13-.318-2.097-.986-2.795-1.932-.832-1.125-1.176-2.508-.968-3.893s.942-2.605 2.068-3.438l3.53-2.608c2.322-1.716 5.61-1.224 7.33 1.1.83 1.127 1.175 2.51.967 3.895s-.943 2.605-2.07 3.438l-1.48 1.094c-.333.246-.804.175-1.05-.158-.246-.334-.176-.804.158-1.05l1.48-1.095c.803-.592 1.327-1.463 1.476-2.45.148-.988-.098-1.975-.69-2.778-1.225-1.656-3.572-2.01-5.23-.784l-3.53 2.608c-.802.593-1.326 1.464-1.475 2.45-.15.99.097 1.975.69 2.778.498.675 1.187 1.15 1.992 1.377.4.114.633.528.52.928-.092.33-.394.547-.722.547z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.27 22.054c-1.61 0-3.197-.735-4.225-2.125-.832-1.127-1.176-2.51-.968-3.894s.943-2.605 2.07-3.438l1.478-1.094c.334-.245.805-.175 1.05.158s.177.804-.157 1.05l-1.48 1.095c-.803.593-1.326 1.464-1.475 2.45-.148.99.097 1.975.69 2.778 1.225 1.657 3.57 2.01 5.23.785l3.528-2.608c1.658-1.225 2.01-3.57.785-5.23-.498-.674-1.187-1.15-1.992-1.376-.4-.113-.633-.527-.52-.927.112-.4.528-.63.926-.522 1.13.318 2.096.986 2.794 1.932 1.717 2.324 1.224 5.612-1.1 7.33l-3.53 2.608c-.933.693-2.023 1.026-3.105 1.026z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <a href="/notes">https://simply-jekyll.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="/assets/img/profile.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <a style="text-decoration: none;" href="/about">
+                <svg class="icon-home" width="18" height="19" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.9777 21.6138V19.6138C20.9777 18.553 20.5563 17.5356 19.8061 16.7854C19.056 16.0353 18.0386 15.6138 16.9777 15.6138H8.97768C7.91682 15.6138 6.8994 16.0353 6.14926 16.7854C5.39911 17.5356 4.97768 18.553 4.97768 19.6138V21.6138"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.9777 11.6138C15.1868 11.6138 16.9777 9.82298 16.9777 7.61385C16.9777 5.40471 15.1868 3.61385 12.9777 3.61385C10.7685 3.61385 8.97768 5.40471 8.97768 7.61385C8.97768 9.82298 10.7685 11.6138 12.9777 11.6138Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <a style="text-decoration: none;" href="/tags">
+            <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                               
+            <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <a style="text-decoration: none;" href="/feed.xml">
+                <svg class="icon-rss" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 11.5C6.38695 11.5 8.67613 12.4482 10.364 14.136C12.0518 15.8239 13 18.1131 13 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 4.5C8.24346 4.5 12.3131 6.18571 15.3137 9.18629C18.3143 12.1869 20 16.2565 20 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 20.5C5.55228 20.5 6 20.0523 6 19.5C6 18.9477 5.55228 18.5 5 18.5C4.44772 18.5 4 18.9477 4 19.5C4 20.0523 4.44772 20.5 5 20.5Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>    
+            <p class="rss-p">RSS</p>
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Simply Jekyll..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="main-site-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Home</p>    
+    </div></header><main>
+                <h1>Test page to see how the raw markdown is rendered</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-January-2020" class="tag">January-01-2020</a></li>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#markdown" class="tag">markdown</a></li></ul><div class="content"><p>This is intended as a quick reference and showcase.</p>
+
+<p><strong>Table of Contents</strong></p>
+<ul>
+  <li><a href="#heading">Headers</a></li>
+  <li><a href="#emphasis">Emphasis</a></li>
+  <li><a href="#lists">Lists</a></li>
+  <li><a href="#links">Links</a></li>
+  <li><a href="#images">Images</a></li>
+  <li><a href="#syntax">Code and Syntax Highlighting</a></li>
+  <li><a style="background-color:#ffffc4;" href="javascript:void(0)">Math Expressions:#math</a></li>
+  <li><a href="#tables">Tables</a></li>
+  <li><a href="#blockquotes">Blockquotes</a></li>
+  <li><a href="#inline">Inline HTML</a></li>
+  <li><a href="#hr">Horizontal Rule</a></li>
+  <li><a href="#br">Line Breaks</a></li>
+</ul>
+
+<h3 id="heading">Headings</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code># H1 
+## H2 
+### H3 
+#### H4 
+##### H5 
+###### H6
+</code></pre></div></div>
+
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+
+<h3 id="emphasis">Emphasis</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Emphasis, aka italics, with *asterisks* or _underscores_. 
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__. 
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~ 
+</code></pre></div></div>
+
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+
+<h3 id="lists">Lists</h3>
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. First ordered list item 
+...1. Ordered sublist 
+2. Another item 
+...* Unordered sublist 
+3. Actual numbers don't matter, just that it's a number 
+4. And another item. 
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown). 
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ 
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ 
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.) 
+
+* Unordered list can use asterisks 
+- Or minuses
++ Or pluses
+</code></pre></div></div>
+
+<ol>
+  <li>First ordered list item
+    <ol>
+      <li>Ordered sublist</li>
+    </ol>
+  </li>
+  <li>Another item
+    <ul>
+      <li>Unordered sublist</li>
+    </ul>
+  </li>
+  <li>Actual numbers don't matter, just that it's a number</li>
+  <li>
+    <p>And another item.</p>
+
+    <p>You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).</p>
+
+    <p>To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+ Note that this line is separate, but within the same paragraph.⋅⋅
+ (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+  </li>
+</ol>
+
+<ul>
+  <li>Unordered list can use asterisks</li>
+  <li>Or minuses</li>
+  <li>Or pluses</li>
+</ul>
+
+<h3 id="links">Links</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or &lt;http://www.example.com&gt; and sometimes 
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+</code></pre></div></div>
+
+<p><a href="https://www.google.com">I'm an inline-style link</a></p>
+
+<p><a href="https://www.google.com" title="Google's Homepage">I'm an inline-style link with title</a></p>
+
+<p><a href="https://www.mozilla.org">I'm a reference-style link</a></p>
+
+<p><a href="../blob/master/LICENSE">I'm a relative reference to a repository file</a></p>
+
+<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+
+<p>URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes 
+example.com (but not on Github, for example).</p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<h3 id="images">Images</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](/assets/img/profile.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: /assets/img/profile.png "Logo Title Text 2"
+</code></pre></div></div>
+
+<p>Here's our logo (hover to see the title text):</p>
+
+<p>Inline-style: 
+<img src="/assets/img/profile.png" alt="alt text" title="Logo Title Text 1" /></p>
+
+<p>Reference-style: 
+<img src="/assets/img/profile.png" alt="alt text" title="Logo Title Text 2" /></p>
+
+<h3 id="syntax">Code and Syntax Highlighting</h3>
+<hr />
+
+<p>Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers – like Github's and Markdown Here – support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. Markdown Here supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers);</p>
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Inline `code` has `back-ticks around` it.
+</code></pre></div></div>
+
+<p>Inline <code class="highlighter-rouge">code</code> has <code class="highlighter-rouge">back-ticks around</code> it.</p>
+
+<p>Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks – they're easier and only they support syntax highlighting.</p>
+
+<pre class="regular-sans"> 
+<code>
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+</code>
+</pre>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<span class="k">print</span> <span class="n">s</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre></div></div>
+
+<h3 id="math">Math expressions</h3>
+<hr />
+
+<p>You can write math expressions using the \(\LateX\) <a href="https://en.wikipedia.org/wiki/LaTeX">markup language</a> between double dollar signs : $$…$$. They can be written inline or as a single block.</p>
+
+<p>For example,</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$$P(A</td>
+      <td>B) = \frac{P(B</td>
+      <td>A)\cdot P(A)}{P(B)}$$ will render as :</td>
+    </tr>
+  </tbody>
+</table>
+
+\[P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>Please note that for a math block to be displayed correctly, it needs to be separated by an empty line, above and below. Besides, the pipe character</td>
+      <td>may conflict with markdown : it is recommended to use \vert instead.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tables">Tables</h3>
+<hr />
+
+<p>Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email – a task that would otherwise require copy-pasting from another application.</p>
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+</code></pre></div></div>
+
+<p>Colons can be used to align columns.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code class="highlighter-rouge">renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="blockquotes">Blockquotes</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Blockquotes are very handy in email to emulate reply text.
+&gt; This line is part of the same quote.
+
+Quote break.
+
+&gt; This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+</code></pre></div></div>
+
+<blockquote>
+  <p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+
+<p>Quote break.</p>
+
+<blockquote>
+  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+</blockquote>
+
+<h2 id="inline">Inline HTML</h2>
+
+<p>You can also use raw HTML in your Markdown, and it'll mostly work pretty well.</p>
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;dl&gt;
+  &lt;dt&gt;Definition list&lt;/dt&gt;
+  &lt;dd&gt;Is something people use sometimes.&lt;/dd&gt;
+
+  &lt;dt&gt;Markdown in HTML&lt;/dt&gt;
+  &lt;dd&gt;Does *not* work **very** well. Use HTML &lt;em&gt;tags&lt;/em&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+</code></pre></div></div>
+
+<p>You can also use raw HTML in your Markdown, and it'll mostly work pretty well.</p>
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<h3 id="hr">Horizontal Rule</h3>
+<hr />
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+</code></pre></div></div>
+
+<p>Three or more…</p>
+
+<hr />
+
+<p>Hyphens</p>
+
+<hr />
+
+<p>Asterisks</p>
+
+<hr />
+
+<p>Underscores</p>
+
+<h3 id="br">Line Breaks</h3>
+<hr />
+
+<p>My basic recommendation for learning how line breaks work is to experiment and discover – hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.</Enter></p>
+
+<p>Here are some things to try out:</p>
+
+<div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+</code></pre></div></div>
+
+<p>Here's a line for us to start with.</p>
+
+<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
+
+<p>This line is also a separate paragraph, but…
+This line is only separated by a single newline, so it's a separate line in the <em>same paragraph</em>.</p>
+
+<p>License: CC-BY</p>
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
+    <h4 class="medium-small">Linked References</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/How-to-use-simply-jekyll-features-on-your-website">
+                <p class="related-title">How to use Simply Jekyll features on your website</p>
+                <p class="related-excerpt">Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[E...</p>
+            </a></div></div>
+    <br/>
+</div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
+<div id="disqus_thread"></div>
+    <script>
+        /**
+         *RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+        this.page.url = 'http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://raghuveerdotnet.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Dark theme adoption as a function of cognitive exhaustion" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/notes/Dark-theme-adoption-as-a-function-of-cognitive-exhaustion" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/notes/Dark-theme-adoption-as-a-function-of-cognitive-exhaustion"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="notes-page-subheader disable-select">
+        <div class="notes-page-site-heading">
+            <p><a href="/index.html">Simply Jekyll</a></p>
+        </div>
+        
+        <div class="notes-page-main-heading">
+            <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p>
+            <p class="notes-page-tagline">The journey from raw thoughts to <a href="/">blogposts</a></p>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Notes..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search_notes.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/notes');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Notes</p>
+    </div></header><main>
+                <h1>Dark theme adoption as a function of cognitive exhaustion</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><div class="content"><p>Sensitivity to brightness can occur due to number of issues ranging from corneal issues like infections and abrasions, to dry eye, to concussions, to allergies; eg: Keratoconus, Uveitis, Keratitis, Preeclampsia. Google claims in its <a href="https://developer.android.com/guide/topics/ui/look-and-feel/darktheme">android developer guide that dark themes can improve visibility for people who have low vision and are sensititive to brightness</a>, but people I have spoken to on this topic (n≈20) had normal vision and normal range of sensitivity to light.</p>
+
+<p>Even people with mild eye issues<label for="lsn-7" class="margin-toggle sidenote-number "></label><input type="checkbox" id="lsn-7" class="margin-toggle"/><span class="sn-left">Jason Harrison, UBC - People with astigmatism (approximately 50% of the population) find it harder to read white text on black than black text on white.</span> seem to benefit from light theme than dark theme in most cases. And to top it all, even the researches that focus on the legibility<label for="rsn-8" class="margin-toggle sidenote-number "></label><input type="checkbox" id="rsn-8" class="margin-toggle"/><span class="sn-right">Bauer, D., &amp; Cavonius, C., R. (1980). <em>Improving the legibility of visual display units through contrast reversal.</em> <br /><strong>See Below for more</strong>.</span> and aesthetics claim that dark on light is almost always better than dark on light. Every article I have read and referenced below vouch for dark on light, which I find to be true too at least in most occasions.</p>
+
+<p>How can what is relatively bad for legibility in most ocassions, bad in terms of expressibility of authorial aesthetics be a wide-spread preference? My hypothesis is this is primarily due to cognitive exhaustion like sleep deprivation, burn-out, stress etc (Extrapolating from n=1), which due to implicity conformity and <a href="https://en.wikipedia.org/wiki/Preference_falsification">preference falsification<sup ><i class="fa fa-wikipedia-w"></i>
+        </sup></a> has become a normative social element. My experience has been that when I have had a bad last night sleep or stress due to office, I invariably am looking for less polarity, otherwise the dark on white seems more appealing to me both aesthetics wise and legibility wise. An extension of these could be that cognitive stress elevate the ocular stress like accomodative/refractive/convergence stress leading up to this, but I contest dark mode being the wide-spread personal/subjective preference.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<p>Bauer, D., &amp; Cavonius, C., R. (1980). <em>Improving the legibility of visual display units through contrast reversal.</em>
+(From: <a href="https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes">UX Stackexchange on theme and eye strain</a>)</p>
+<blockquote>
+  <p>"…However, most studies have shown that dark characters on a light background are superior to light characters on a dark background (when the refresh rate is fairly high). For example, Bauer and Cavonius (1980) found that participants were 26% more accurate in reading text when they read it with dark characters on a light background…"</p>
+</blockquote>
+
+<p>Pabini Gabriel-Petit. (2007). <em><a href="https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php">Applying color theory to digital displays</a></em></p>
+<blockquote>
+  <p>"…While white text on a black background provides very high value contrast, it is less readable and causes greater eye fatigue than black text on a white background…"</p>
+</blockquote>
+
+<p>Jason Harrison – Post Doctoral Fellow, Imager Lab Manager – Sensory Perception and Interaction Research Group, University of British Columbia</p>
+<blockquote>
+  <p>People with astigmatism (approximately 50% of the population) find it harder to read white text on black than black text on white. Part of this has to do with light levels: with a bright display (white background) the iris closes a bit more, decreasing the effect of the "deformed" lens; with a dark display (black background) the iris opens to receive more light and the deformation of the lens creates a much fuzzier focus at the eye.</p>
+</blockquote>
+
+<p>Raluca Budiu. (2020). <em><a href="https://www.nngroup.com/articles/dark-mode/">Dark mode v Light Mode: Which is better</a></em></p>
+<blockquote>
+  <p>"…Their results showed that light mode won across all dimensions: irrespective of age, the positive contrast polarity was better for both visual-acuity tasks and for proofreading tasks. However, the difference between light mode and dark mode in the visual-acuity task was smaller for older adults than for younger adults — meaning that, although light mode was better for older adults, too, they did not benefit from it as much as younger adults, at least in the visual-acuity task.</p>
+
+  <p>When researchers looked at fatigue metrics, they concluded that there was no significant difference of contrast polarity on any of them (meaning that it wasn’t the case that dark mode made people more tired, or vice versa)…"</p>
+</blockquote>
+
+<p>Lauren V. Scharff, Albert J Ahumada. (2005). <a href="http://jov.arvojournals.org/article.aspx?articleid=2132608">Why is light text harder to read than dark text</a></p>
+<blockquote>
+  <p>"…For paragraph readability and letter identification, responses to light text were slower and less accurate for a given contrast…."</p>
+</blockquote>
+
+<p>Jim Sheedy, Kevin Larson. (2008). <em><a href="http://www.eyemagazine.com/opinion/article/eye-strain">Blink: The stress of Reading</a></em></p>
+
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-relatedposts">
+    <h4 class="medium-small">Related Notes</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/notes/Everyone-should-have-a-project-that-they-control-100-of">
+            <p class="related-title">Everyone should have a project that they control 100% of</p>
+            <p class="related-excerpt">To improve as a programmer, every programmer whether working independently or in an organization should atleast have one project that the...</p>
+          </a></div></div>
+      <br/>
+</div></main><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>

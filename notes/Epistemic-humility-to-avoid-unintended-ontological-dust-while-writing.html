@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Epistemic humility to avoid unintended ontological dust while writing" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/notes/Epistemic-humility-to-avoid-unintended-ontological-dust-while-writing" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/notes/Epistemic-humility-to-avoid-unintended-ontological-dust-while-writing"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="notes-page-subheader disable-select">
+        <div class="notes-page-site-heading">
+            <p><a href="/index.html">Simply Jekyll</a></p>
+        </div>
+        
+        <div class="notes-page-main-heading">
+            <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p>
+            <p class="notes-page-tagline">The journey from raw thoughts to <a href="/">blogposts</a></p>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Notes..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search_notes.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/notes');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Notes</p>
+    </div></header><main>
+                <h1>Epistemic humility to avoid unintended ontological dust while writing</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><div class="content"><p>When writing an essay <em>(applies to both opinion piece as well as factual ones)</em>, remember to clearly portray the epistemic humility<label for="rmn-9" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="rmn-9" class="margin-toggle"/><span class="mn-right"><strong>Epistemic Humility</strong>: Recognizing the fragility of your epistemic confidence i.e., you (can) only know so much</span>, that is required of the subject in hand, in your writing. My observation has been that writing essays involve introduction of at least some amount of ontological dust that sprouts from past vague encounters or influences that you cannot remember. You cannot willingly avoid your perceptions and thoughts, but what you can definitely do is direct them to a more neutral ground by showing what you know is not all of it.</p>
+
+<p>See Related: <span class="tooltip"><a href="/notes/Humility-is-the-knowing-of-the-epistemic-gap">Humility is the knowing of the epistemic gap</a><span class="right bottom"><span class="tooltip-title">Humility is the knowing of the epistemic gap</span><br/><span class="tooltip-excerpt">Humility is the knowing that you don't know a lot of things not a false pretension to deceive people into praising you.<br />
+<br />
+The contemporary view of humility seems to be to pretend as if one knew little instead of realizing it. Here fake it till you make it doesn't seem to work as, the more you pretend to be humble without realizing how little you know—not relatively, but absolutely—-the ego grows by holding onto the relative superiority.<br />
+<br />
+Most of the issue of not understanding the fragility of ...</span><i></i></span></span></p>
+
+<h2 id="references">References</h2>
+
+<p>Raghuveer S. (2018). <em>Journal Entry</em></p>
+
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-relatedposts">
+    <h4 class="medium-small">Related Notes</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/notes/Cultural-artefacts-to-improve-the-resonance-and-life-expectancy-of-your-writing">
+            <p class="related-title">Cultural artefacts to improve the resonance and life expectancy of your writing</p>
+            <p class="related-excerpt">Cultural additions like one's philosophical inclinations, directed social interactions through common social artefacts, etc can add perso...</p>
+          </a></div><div class="related-group"><a href="/notes/Serendipity-based-outlook-as-a-driver-for-large-scale-personal-projects">
+            <p class="related-title">Serendipity Based outlook as a driver for large Scale personal projects</p>
+            <p class="related-excerpt">Goal-oriented outlook for large-scale personal projects seem to be detrimental in a sense that in the absence of an enforcing agent it se...</p>
+          </a></div></div>
+      <br/>
+</div></main><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>

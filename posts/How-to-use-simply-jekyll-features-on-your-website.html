@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="How to use Simply Jekyll features on your website" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Simply Jekyll</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">John Doe</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">Programmer (Interested in Philosophy and Math)</p>
+            </div> 
+            <div class="link-to-notes">
+                <svg height="16" width="15" viewBox="0 0 24 24" class="anchor-link">
+                    <path d="M11.96 14.945c-.067 0-.136-.01-.203-.027-1.13-.318-2.097-.986-2.795-1.932-.832-1.125-1.176-2.508-.968-3.893s.942-2.605 2.068-3.438l3.53-2.608c2.322-1.716 5.61-1.224 7.33 1.1.83 1.127 1.175 2.51.967 3.895s-.943 2.605-2.07 3.438l-1.48 1.094c-.333.246-.804.175-1.05-.158-.246-.334-.176-.804.158-1.05l1.48-1.095c.803-.592 1.327-1.463 1.476-2.45.148-.988-.098-1.975-.69-2.778-1.225-1.656-3.572-2.01-5.23-.784l-3.53 2.608c-.802.593-1.326 1.464-1.475 2.45-.15.99.097 1.975.69 2.778.498.675 1.187 1.15 1.992 1.377.4.114.633.528.52.928-.092.33-.394.547-.722.547z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.27 22.054c-1.61 0-3.197-.735-4.225-2.125-.832-1.127-1.176-2.51-.968-3.894s.943-2.605 2.07-3.438l1.478-1.094c.334-.245.805-.175 1.05.158s.177.804-.157 1.05l-1.48 1.095c-.803.593-1.326 1.464-1.475 2.45-.148.99.097 1.975.69 2.778 1.225 1.657 3.57 2.01 5.23.785l3.528-2.608c1.658-1.225 2.01-3.57.785-5.23-.498-.674-1.187-1.15-1.992-1.376-.4-.113-.633-.527-.52-.927.112-.4.528-.63.926-.522 1.13.318 2.096.986 2.794 1.932 1.717 2.324 1.224 5.612-1.1 7.33l-3.53 2.608c-.933.693-2.023 1.026-3.105 1.026z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <a href="/notes">https://simply-jekyll.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="/assets/img/profile.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <a style="text-decoration: none;" href="/about">
+                <svg class="icon-home" width="18" height="19" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.9777 21.6138V19.6138C20.9777 18.553 20.5563 17.5356 19.8061 16.7854C19.056 16.0353 18.0386 15.6138 16.9777 15.6138H8.97768C7.91682 15.6138 6.8994 16.0353 6.14926 16.7854C5.39911 17.5356 4.97768 18.553 4.97768 19.6138V21.6138"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.9777 11.6138C15.1868 11.6138 16.9777 9.82298 16.9777 7.61385C16.9777 5.40471 15.1868 3.61385 12.9777 3.61385C10.7685 3.61385 8.97768 5.40471 8.97768 7.61385C8.97768 9.82298 10.7685 11.6138 12.9777 11.6138Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <a style="text-decoration: none;" href="/tags">
+            <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                               
+            <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <a style="text-decoration: none;" href="/feed.xml">
+                <svg class="icon-rss" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 11.5C6.38695 11.5 8.67613 12.4482 10.364 14.136C12.0518 15.8239 13 18.1131 13 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 4.5C8.24346 4.5 12.3131 6.18571 15.3137 9.18629C18.3143 12.1869 20 16.2565 20 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 20.5C5.55228 20.5 6 20.0523 6 19.5C6 18.9477 5.55228 18.5 5 18.5C4.44772 18.5 4 18.9477 4 19.5C4 20.0523 4.44772 20.5 5 20.5Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>    
+            <p class="rss-p">RSS</p>
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Simply Jekyll..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="main-site-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Home</p>    
+    </div></header><main>
+                <h1>How to use Simply Jekyll features on your website</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-February-2020" class="tag">February-01-2020</a></li>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#jekyll" class="tag">jekyll</a></li><li><a href="/tags/#theme" class="tag">theme</a></li></ul><div class="content"><p>Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in <span class="tooltip"><a href="/posts/Exploring-the-features-of-simply-jekyll">Exploring the features of Simply Jekyll</a><span class="right bottom"><span class="tooltip-title">Exploring the features of Simply Jekyll</span><br/><span class="tooltip-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all  the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…<br />
+<br />
+That said, this is a ready made theme and I am making it public so that more number of people will use it and enjoy the experience of using it...</span><i></i></span></span>. So without further ado, let's get started.</p>
+
+<h2 id="the-default-features">The default features</h2>
+
+<p>All the default jekyll markdown features are made available such that they don't cause any conflict with the custom features that we have implemented. To see how to the raw markdown gets generated, go to the <span class="tooltip"><a href="/posts/Test-page-to-see-how-the-markdown-is-rendered">Test page to see how the raw markdown is rendered</a><span class="right bottom"><span class="tooltip-title">Test page to see how the raw markdown is rendered</span><br/><span class="tooltip-excerpt">This is intended as a quick reference and showcase.<br />
+<br />
+Table of Contents<br />
+<br />
+  <a href="#heading">Headers</a><br />
+  <a href="#emphasis">Emphasis</a><br />
+  <a href="#lists">Lists</a><br />
+  <a href="#links">Links</a><br />
+  <a href="#images">Images</a><br />
+  <a href="#syntax">Code and Syntax Highlighting</a><br />
+  [[Math Expressions:#math]]<br />
+  <a href="#tables">Tables</a><br />
+  <a href="#blockquotes">Blockquotes</a><br />
+  <a href="#inline">Inline HTML</a><br />
+  <a href="#hr">Horizontal Rule</a><br />
+  <a href="#br">Line Breaks</a><br />
+<br />
+<br />
+Headings<br />
+<br />
+<br />
+# H1 <br />
+## H2 <br />
+### H3 <br />
+#### H4 <br />
+##### H5 <br />
+###### H6<br />
+<br />
+<br />
+H1<br />
+H2<br />
+H3<br />
+H4<br />
+H5<br />
+H6<br />
+<br />
+Emphasis<br />
+<br />
+<br />
+Emphasis, aka ...</span><i></i></span></span></p>
+
+<h2 id="the-custom-features">The Custom features</h2>
+
+<h3 id="1-creating-a-wiki-style-link">1. Creating a wiki-style link</h3>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li>
+    <p><strong>Internal links:</strong> <strong>[​[</strong>​Some Link<strong>]]</strong></p>
+  </li>
+  <li>
+    <p><strong>External links:</strong> <strong>[​[​</strong>Some Text::https://address-to-the-website<strong>]]</strong></p>
+  </li>
+</ul>
+
+<p>Anything text inside a double square bracket is considered as an internal link. The text has to be a valid title, if you provide a random text inside double square brackets, it will showup highlighted in yellow telling you that there is no essay/article/file with the mentioned title.</p>
+
+<p>Similarly, for external links all you have to do is add a double colon after the "Alt text" and enter the link to the website after the double colon as seen below.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>Example of an internal link that points to a valid post or page, that is, a page with the title (not url) mentioned in the double brackets.</p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> <strong>[​[</strong>​Comparison based on accomplishment does not have a baseline<strong>]]</strong></p>
+
+  <p><strong>Rendered Text:</strong> <span class="tooltip"><a href="/notes/Comparison-based-on-accomplishment-does-not-have-a-baseline">Comparison based on accomplishment does not have a baseline</a><span class="right bottom"><span class="tooltip-title">Comparison based on accomplishment does not have a baseline</span><br/><span class="tooltip-excerpt">I would just note that you have an image of some "great X" that you are trying to live up to, when really, there is no frame of reference to standardize a measure for X. Point being you and your circumstances are completely unique[[Warren Buffet talks about the idea of maintaining an inner score card of principles to escape this girardian mimetic rat-race::rmn]]. Also, James Richardon, the poet, says this beautifully in his book "Vectors: Aphorisms and 10 Second Essays":<br />
+<br />
+<br />
+  “He wants to know...</span><i></i></span></span></p>
+</blockquote>
+
+<p>Example of an internal link that do not point to a valid post or page, that is, a page with the title (not url) mentioned in the double brackets.</p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> <strong>[​[</strong>Title of a non-existent page<strong>]]</strong></p>
+
+  <p><strong>Rendered Text:</strong> <a style="background-color:#ffffc4;" href="javascript:void(0)">Title of a non-existent page</a></p>
+</blockquote>
+
+<h3 id="2-creating-a-sidenote-or-a-marginnote">2. Creating a sidenote or a marginnote</h3>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li>
+    <p><strong>Sidenote:</strong> <strong>[​[</strong>Some Text<strong>::keyword-of-the-type-of-the-sidenote]]</strong></p>
+  </li>
+  <li>
+    <p><strong>Marginnote:</strong> <strong>[​[​</strong>Some Text<strong>::keyword-of-the-type-of-the-marginnote]]</strong></p>
+  </li>
+</ul>
+
+<blockquote>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left">Type of the sidenote/marginnote</th>
+        <th style="text-align: left">keyword</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left">Left Sidenote</td>
+        <td style="text-align: left"><code class="highlighter-rouge">lsn</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Right Sidenote</td>
+        <td style="text-align: left"><code class="highlighter-rouge">rsn</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Left Marginnote</td>
+        <td style="text-align: left"><code class="highlighter-rouge">lmn</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Right Marginnote</td>
+        <td style="text-align: left"><code class="highlighter-rouge">rmn</code></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>So, all you have to do is type in the keywords of the corresponding type of sidenote or marginnote after the double colon in the above syntax</p>
+
+<p><strong>Examples</strong></p>
+
+<p>Example of a sidenote to the right side of the page:</p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <strong>[​[</strong>Phasellus mollis lectus id efficitur mollis.<strong>::rsn]]</strong> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+
+  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <label for="rsn-0" class="margin-toggle sidenote-number "></label><input type="checkbox" id="rsn-0" class="margin-toggle"/><span class="sn-right">Phasellus mollis lectus id efficitur mollis.</span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+</blockquote>
+
+<p>Same goes with <code class="highlighter-rouge">lsn</code>, <code class="highlighter-rouge">rmn</code>, <code class="highlighter-rouge">lmn</code></p>
+
+<h3 id="3-highlighting-a-piece-of-text">3. Highlighting a piece of text</h3>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li><strong>[​[</strong>​Some Link<strong>::highlight]]</strong></li>
+</ul>
+
+<p>There is only one color right now in which it highlights, a light bluish color, but you can easily extend it to support multiple colors by tinkering with it in <code class="highlighter-rouge">content.html</code> file in <code class="highlighter-rouge">_includes</code> directory.</p>
+
+<p><strong>Examples</strong></p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <strong>[​[</strong>Phasellus mollis lectus id efficitur mollis.<strong>::highlight]]</strong> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+
+  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <span style="background-color: #DAEDFF; color: #555;">Phasellus mollis lectus id efficitur mollis.</span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+</blockquote>
+
+<h3 id="4-partial-transclusion">4. Partial Transclusion</h3>
+
+<p>Transclusion is just a natural extension of sidenote and marginnote feature.</p>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li>
+    <p><strong>Sidenote-transclusion:</strong> <strong>[​[</strong>Some Text<strong>::keyword-of-the-type-of-the-sidenote-transclusion]]</strong></p>
+  </li>
+  <li>
+    <p><strong>Marginnote-transclusion:</strong> <strong>[​[​</strong>Some Text<strong>::keyword-of-the-type-of-the-marginnote-transclusion]]</strong></p>
+  </li>
+</ul>
+
+<blockquote>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left">Type of the sidenote/marginnote transclusion</th>
+        <th style="text-align: left">keyword</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left">Left Sidenote Transclusion</td>
+        <td style="text-align: left"><code class="highlighter-rouge">lsn-transclude</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Right Sidenote Transclusion</td>
+        <td style="text-align: left"><code class="highlighter-rouge">rsn-transclude</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Left Marginnote Transclusion</td>
+        <td style="text-align: left"><code class="highlighter-rouge">lmn-transclude</code></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Right Marginnote Transclusion</td>
+        <td style="text-align: left"><code class="highlighter-rouge">rmn-transclude</code></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>So, all you have to do is type in the keywords of the corresponding type of sidenote or marginnote after the double colon in the above syntax</p>
+
+<p><strong>Examples</strong></p>
+
+<p>Example of a transclusion to the right side of the page:</p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <strong>[​[</strong>Comparison based on accomplishment does not have a baseline<strong>::rmn-transclude]]</strong> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+
+  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <label for="rmn-transclude-1" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="rmn-transclude-1" class="margin-toggle"/><span class="mn-right"><a href="/notes/Comparison-based-on-accomplishment-does-not-have-a-baseline"> <span style="background-color: #ffffc4; color: #555;">Transclusion</span><br/><b>Comparison based on accomplishment does not have a baseline</b><br/>I would just note that you have an image of some "great X" that you are trying to live up to, when really, there is no frame of reference to standardize a measure for X. Point being you and your circumstances are completely unique[[Warren Buffet talks about the idea of maintai...</a></span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+</blockquote>
+
+<p>Same goes with <code class="highlighter-rouge">rsn</code>, <code class="highlighter-rouge">lsn</code>, <code class="highlighter-rouge">lmn</code></p>
+
+<h3 id="5-wrapping-a-text-inside-a-box">5. Wrapping a text inside a box</h3>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li><strong>[​[</strong>Some Text<strong>::wrap]]</strong></li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> <strong>[​[</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis<strong>::wrap]]</strong>.</p>
+
+  <p><strong>Rendered Text:</strong> <div class="boxit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</div></p>
+</blockquote>
+
+<h3 id="6-flashcard">6. Flashcard</h3>
+
+<p><strong><u>General Syntax</u></strong></p>
+
+<ul>
+  <li><strong>[​[</strong>Some Text<strong>::srs]]</strong></li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>[​[</strong>Donec rutrum tortor in pharetra vehicula<strong>::srs]]</strong>. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+
+  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <label for="srs-0" class="srs-toggle "><svg class="srs-svg" x="0px" y="0px" height="20" width="18" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><path fill="none" d="M41.648,12.407c-0.186-0.286-0.5-0.457-0.841-0.457c-0.191,0-0.379,0.056-0.542,0.162l-5.235,3.396l8.239-0.602  L41.648,12.407z"/><path fill="none" d="M28.45,19.776L8.471,32.737c-0.462,0.3-0.594,0.921-0.294,1.384l23.832,36.736l-3.638-49.85  C28.34,20.584,28.379,20.176,28.45,19.776z"/><path d="M40.055,81.425l0.127-0.082l-1.181,0.086C39.319,81.615,39.731,81.635,40.055,81.425z"/><path d="M94.964,32.733c-0.616-1.185-1.656-2.06-2.93-2.462l-15.315-4.845l-0.576-7.905c-0.2-2.721-2.604-4.834-5.352-4.623  l-22.969,1.676l-2.818-4.344c-0.925-1.428-2.495-2.28-4.197-2.28c-0.966,0-1.907,0.279-2.719,0.806L6.294,29.381  c-2.313,1.5-2.974,4.603-1.473,6.916l30.496,47.008c0.926,1.428,2.495,2.28,4.198,2.28c0.965,0,1.905-0.278,2.717-0.806l1.04-0.675  l28.847,9.123c0.491,0.155,0.999,0.233,1.511,0.233c2.191,0,4.105-1.404,4.764-3.491l16.902-53.424  C95.697,35.273,95.58,33.919,94.964,32.733z M40.266,12.112c0.163-0.106,0.35-0.162,0.542-0.162c0.341,0,0.656,0.17,0.841,0.457  l1.622,2.5l-8.239,0.602L40.266,12.112z M8.177,34.121c-0.3-0.463-0.168-1.083,0.294-1.384l19.979-12.96  c-0.071,0.399-0.11,0.808-0.08,1.23l3.638,49.85L8.177,34.121z M35.678,66.191L32.36,20.716c-0.04-0.55,0.375-1.031,0.924-1.071  l12.471-0.909l4.552-0.332l20.852-1.52c0.519,0,0.955,0.408,0.993,0.928l0.461,6.315L55.9,18.841  c-0.49-0.155-0.997-0.234-1.508-0.234c-1.206,0-2.32,0.437-3.195,1.169c-0.715,0.597-1.274,1.385-1.571,2.324l-0.554,1.75  L35.678,66.191z M91.48,35.34l-11.408,36.06l-2.057,6.5l-3.438,10.867c-0.194,0.614-0.798,0.794-1.253,0.647l-25.706-8.13  l-1.247-0.394l-3.694-1.169l-5.488-1.735c-0.343-0.108-0.514-0.355-0.586-0.493c-0.061-0.116-0.137-0.342-0.093-0.617  c0.007-0.047,0.011-0.093,0.026-0.143l15.354-48.536l1.547-4.891c0.005-0.016,0.016-0.026,0.021-0.041  c0.166-0.451,0.579-0.659,0.932-0.659c0.101,0,0.202,0.016,0.301,0.047l18.233,5.768l4.105,1.299l13.795,4.364  c0.345,0.109,0.516,0.356,0.588,0.494C91.486,34.715,91.59,34.997,91.48,35.34z"/><path d="M40.055,81.425c-0.323,0.21-0.735,0.19-1.054,0.004l1.181-0.086L40.055,81.425z"/></svg></label><input type="checkbox" id="srs-0" class="srs-toggle"/><span class="spaced-rep"><span style="font-size: 16px; color: #555;"><u><strong>Flashcard</strong></u></span><br/>Donec rutrum tortor in pharetra vehicula</span>. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+</blockquote>
+
+<h3 id="7-specific-classes-for-changing-font-type-font-size-and-font-weight">7. Specific classes for changing font-type, font-size, and font-weight</h3>
+
+<p>There are classes like very-small, medium-small, small, small-medium, medium, medium-large, large, very-large; that can be used to change the size of your text directly from markdown like this:</p>
+
+<blockquote>
+  <p class="regular-sans"><strong>Raw Syntax:</strong></p>
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.large}
+Some text here that needs to be enlarged
+</code></pre></div>  </div>
+
+  <p><strong>Rendered Text:</strong></p>
+
+  <p class="large">Some text here that needs to be enlarged</p>
+</blockquote>
+
+<p>Similarly there are classes like regular-sans, serif, bold, italic, oblique, bolder, etc for formatting the text.</p>
+
+<blockquote>
+  <p><strong>Raw Syntax:</strong></p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.medium .serif .oblique}
+Some text here that needs to be enlarged
+</code></pre></div>  </div>
+
+  <p><strong>Rendered Text:</strong></p>
+
+  <p class="medium serif oblique">Some text here that needs to be enlarged</p>
+</blockquote>
+
+<p>Other common classes are .boxit that is used to wrap the text, .disable-user-select to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file <code class="highlighter-rouge">style.css</code>. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:&lt;classnames-with-dot-prepended-to-them&gt;​}</p>
+
+<h3 id="8-other-implicit-features">8. Other implicit features.</h3>
+
+<p>Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.</p>
+
+<h4 id="note">Note:</h4>
+<p>When you typeout square brackets, it can be frustrating to type out the entire file title everytime. At least it was for me, so I created a small VSCode plugin, the editor in which I write my essays to autocomplete the titles as soon as I type double squarebrackets. It has been pretty handy for me, if you are interested in using VSCode or already use it, you can find it here: <a href="https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete">Notecomplete<sup ><i class="fa fa-github"></i></sup></a>. It is pretty simple to use, all you have to do is just download the note-complete folder and copy it to .vscode directory in your OS to start using it. :)</p>
+
+<p>For setting up the theme on your website checkout <span class="tooltip"><a href="/posts/How-to-setup-simply-jekyll">How to setup Simply Jekyll</a><span class="right bottom"><span class="tooltip-title">How to setup Simply Jekyll</span><br/><span class="tooltip-excerpt">This is going to be a super simple post about how to setup and use this theme for your own website.<br />
+<br />
+Usage<br />
+<br />
+Q. What will it look like when I am done setting it up?<br />
+<br />
+<br />
+  This is what it should look  (minus the exact essays ofcourse):<br />
+<br />
+<br />
+<br />
+Now without further ado, let's get started!<br />
+<br />
+Setup Prerequisites<br />
+<br />
+For this tutorial, we’ll need to install a few things on your machine (you may have some of these already). Following the instructions on each website to install them.<br />
+<br />
+<br />
+  [[Ruby::https://www.ruby...</span><i></i></span></span></p>
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
+    <h4 class="medium-small">Linked References</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Exploring-the-features-of-simply-jekyll">
+                <p class="related-title">Exploring the features of Simply Jekyll</p>
+                <p class="related-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily ...</p>
+            </a></div></div>
+    <br/>
+</div><div class="related" id="jekyll-seamless-relatedposts">
+    <h4 class="medium-small">Related Posts</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Introduction-to-simply-jekyll">
+            <p class="related-title">Introduction to Simply Jekyll</p>
+            <p class="related-excerpt">Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal ...</p>
+          </a></div><div class="related-group"><a href="/posts/How-to-setup-simply-jekyll">
+            <p class="related-title">How to setup Simply Jekyll</p>
+            <p class="related-excerpt">This is going to be a super simple post about how to setup and use this theme for your own website.
+
+Usage
+
+Q. What will it look like whe...</p>
+          </a></div></div>
+      <br/>
+    </div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
+<div id="disqus_thread"></div>
+    <script>
+        /**
+         *RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+        this.page.url = 'http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://raghuveerdotnet.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>

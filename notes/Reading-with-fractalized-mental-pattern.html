@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Reading with fractalized mental pattern" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="http://localhost:4000/notes/Reading-with-fractalized-mental-pattern" property="og:url"><title>Simply Jekyll</title>
+
+    <link rel="canonical" href="http://localhost:4000/notes/Reading-with-fractalized-mental-pattern"/>
+    <link rel="apple-touch-icon" href="/assets/img/profile.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box"><header>
+    <div class="notes-page-subheader disable-select">
+        <div class="notes-page-site-heading">
+            <p><a href="/index.html">Simply Jekyll</a></p>
+        </div>
+        
+        <div class="notes-page-main-heading">
+            <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p>
+            <p class="notes-page-tagline">The journey from raw thoughts to <a href="/">blogposts</a></p>
+        </div>
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Notes..."/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search_notes.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script><div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/notes');">
+        <div class="back-icon">
+            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
+            </svg>
+        </div>
+        <p class="back-p">Notes</p>
+    </div></header><main>
+                <h1>Reading with fractalized mental pattern</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><div class="content"><p>Fractalize your mental patterns instead of reading as a whole (i.e., one single pattern, where the mood of the act is associated with the ego), that way you will be able to selectively associate yourself with a book instead of the act of reading. Most people stop reading when they are bored of reading, but by fractalizing your mental patterns you will be able to dissociate yourself from that particular book and move on to another book instead of stopping reading altogether.</p>
+
+<blockquote class="serif medium">
+  <p>"Be bored with a book, not with the act of reading"<br />
+<cite>—Nassim Nicholas Taleb, Antifragile</cite></p>
+</blockquote>
+
+<h2 id="references">References</h2>
+
+<p>Taleb, Nicholas Nassim. (2015). <em>Antifragile</em>.</p>
+
+</div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
+    <h4 class="medium-small">Linked References</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/notes/Reading-the-material-to-completion-over-interest-based-pickups-n-drops">
+                <p class="related-title">Reading the material to completion over interest Based pickups N Drops</p>
+                <p class="related-excerpt">It is becoming common these days among people to preach dropping and picking up a book based on interest, but if you seriously want to ex...</p>
+            </a></div></div>
+    <br/>
+</div></main><div id="copyright">
+    <p id="copyright-notice">© John Doe</p>
+</div> </div>
+        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        document.getElementById("scroll-to-top").addEventListener("click", function() {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        });
+    </script></body>
+</html>
