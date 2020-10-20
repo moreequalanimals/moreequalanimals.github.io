@@ -33,7 +33,7 @@ collections:
       permalink: /notes/:title
 
 disqus:
-  shortname: raghuveerdotnet
+  shortname: moreequalanimals 
 
 defaults:
   - scope:
