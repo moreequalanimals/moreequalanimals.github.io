@@ -5,8 +5,7 @@
 <html lang="en">
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Knowledge Continuum" property="og:site_name"/>
-    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="More Equal Animals" property="og:site_name"/>
     <meta content="{{ site.url }}/about/" property="article:author">
 
     {%- if page.title -%}
@@ -16,6 +15,11 @@
     {%- else -%}
     <meta content="website" property="og:type">
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {%- endif -%}
+    {%- if page.desc -%}
+        <meta content="{{page.desc}}" property="og:description"> -->
+    {%- else -%}
+        <meta content="{{page.content | strip_html | strip | escape | truncate: 200}}" property="og:description"> 
     {%- endif -%}
 
     <title>{{site.title}} - The Subtle Art of True Democracy</title>

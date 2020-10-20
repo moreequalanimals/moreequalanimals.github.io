@@ -1,6 +1,7 @@
 ---
 title: Why More Equal Animals?
 tags: government
+desc: An explanation for how this website got its name.
 comments: true
 image: assets/img/animalfarm.jpg
 ---
