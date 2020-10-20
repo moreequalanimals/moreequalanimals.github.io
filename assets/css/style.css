@@ -261,7 +261,24 @@ hr {
     align-content: flex-end;
 }
 
+.site-subheading {
+    border-bottom: 2px solid #f7f7f7;
+    flex: 0 0 20px;
+    align-self: stretch;
+    align-content: flex-end;
+}
+
 .site-heading h4 {
+    color: #555555;
+    font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-stretch: ultra-condensed;
+    float: right;
+    margin-bottom: 10px;
+    padding-top: -20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.site-heading h5 {
     color: #555555;
     font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-stretch: ultra-condensed;
@@ -688,6 +705,11 @@ hr {
     cursor: pointer;
     border-top: 1px solid #f7f7f7;
     border-bottom: 1px solid #f7f7f7;
+    min-height: 200px;
+}
+.feed-title-excerpt-block img {
+   width: 150px;
+   height: auto;
 }
 
 .feed-title-excerpt-block:hover {
