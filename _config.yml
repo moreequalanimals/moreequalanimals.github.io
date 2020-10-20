@@ -14,8 +14,12 @@ theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
+  - jekyll-seo-tag
 
 markdown: kramdown
+
+twitter:
+  username: bytemaster7
 
 kramdown:
   input: GFM
