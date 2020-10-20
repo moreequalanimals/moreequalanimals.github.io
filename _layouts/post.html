@@ -17,7 +17,7 @@
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {%- endif -%}
     {%- if page.desc -%}
-        <meta content="{{page.desc}}" property="og:description"> -->
+        <meta content="{{page.desc}}" property="og:description"> 
     {%- else -%}
         <meta content="{{page.content | strip_html | strip | escape | truncate: 200}}" property="og:description"> 
     {%- endif -%}
@@ -36,7 +36,7 @@
     <![endif]-->
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    {% seo %}
+    <!--{% seo %}-->
 </head>
 
 <body>
