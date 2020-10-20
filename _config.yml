@@ -6,7 +6,7 @@ profile_pic: /assets/img/dlcaricature.jpg
 favicon: /assets/img/favicon.png
 copyright_name: Daniel Larimer
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://moreequalanimals.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://moreequalanimals.com" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
