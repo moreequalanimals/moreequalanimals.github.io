@@ -4,28 +4,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="More Equal Animals" property="og:site_name"/>
-    <meta content="{{ site.url }}/about/" property="article:author">
-
-    {%- if page.title -%}
-    <meta content="{{ page.title }}" property="og:title">
-    <meta content="article" property="og:type">
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- else -%}
-    <meta content="website" property="og:type">
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- endif -%}
-    {%- if page.desc -%}
-        <meta content="{{page.desc}}" property="og:description"> 
-    {%- else -%}
-        <meta content="{{page.content | strip_html | strip | escape | truncate: 200}}" property="og:description"> 
-    {%- endif -%}
-
     <title>{{site.title}} - The Subtle Art of True Democracy</title>
 
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="More Equal Animals" property="og:site_name"/>
+    <meta content="{{ site.url }}/about/" property="article:author"/>
+
+    {%- if page.title -%}
+    <meta content="{{ page.title }}" property="og:title"/>
+
+    <meta content="article" property="og:type"/>
+
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url"/>
+    {%- else -%}
+    <meta content="website" property="og:type"/>
+
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url"/>
+    {%- endif -%}
+
+
+    {%- if page.image -%}
+        <meta content="{{page.image}}" property="og:image"/> 
+    {%- endif -%}
+
+    {%- if page.desc -%}
+        <meta content="{{page.desc}}" property="og:description"/> 
+    {%- else -%}
+        <meta content="{{page.content | strip_html | strip | escape | truncate: 200}}" property="og:description"/> 
+
+    {%- endif -%}
+
+
     <link rel="canonical" href="{{site.url}}{{page.url}}"/>
+
     <link rel="apple-touch-icon" href="{{site.profile_pic}}">
+
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
 
     <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
@@ -36,7 +50,6 @@
     <![endif]-->
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    <!--{% seo %}-->
 </head>
 
 <body>
