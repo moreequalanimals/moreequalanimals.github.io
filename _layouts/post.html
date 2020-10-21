@@ -31,7 +31,7 @@
     {%- if page.desc -%}
         <meta content="{{page.desc}}" property="og:description"/> 
     {%- else -%}
-        <meta content="{{page.content | strip_html | strip | escape | truncate: 200}}" property="og:description"/> 
+        <meta content="{{page.content | strip_html | strip | escape | truncate: 160}}" property="og:description"/> 
 
     {%- endif -%}
 
@@ -50,6 +50,12 @@
     <![endif]-->
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+
+    <!-- mailchip popup -->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b6439a04bb1f51295b2a26004/3e6df73cadb5def2edd6a2bc8.js");</script>
+
+    <!-- end mailchip popup -->
+
 </head>
 
 <body>

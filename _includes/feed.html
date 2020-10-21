@@ -12,7 +12,7 @@
             {%- else -%}
             <p class="feed-title">{{ item.title }}</p>
             {%- endif -%}
-            <p class="feed-excerpt">{{ item.content | strip_html | strip | escape | truncate: 300}}</p>
+            <p class="feed-excerpt">{{ item.desc }} </p> <!--content | strip_html | strip | escape | truncate: 300}}</p> -->
             </a>
         </div>
     {%- endfor -%}
