@@ -1040,12 +1040,10 @@ label.srs-toggle {
 }
 
 .related-excerpt:before {
-    content: "\"";
 }
 
 
 .related-excerpt:after {
-    content: "\"";
 }
 
 .related-excerpt {

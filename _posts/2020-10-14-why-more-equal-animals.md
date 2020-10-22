@@ -1,12 +1,11 @@
 ---
-title: Why I named my blog "More Equal Animals"?
+title: Why I named my blog 'More Equal Animals'?
 tags: government
 desc: The background for why I call my blog "More Equal Animals".
 comments: true
 image: /assets/img/sheep.jpg
 ---
 
-<img src="/assets/img/animalfarm.jpg" style="float: right; margin: 15px;"> 
 
 _“More Equal Animals”_ is a reference to Animal Farm, by George Orwell, a thinly veiled allegory for the Soviet Union. 
 In Orwell's book the animals overthrow the farmer and establish their own government, known as Animal Farm. 
@@ -15,6 +14,8 @@ all animals on the farm are supposed to have equal rights in their animal democr
 and started behaving like the farmer they previously exiled. The pigs made a mockery of the other rules in their 
 constitution and eventually corrupted the very meaning of the highest law of their constitution by claiming 
 **_“All animals are equal, but some animals are more equal than others.”_**
+
+<center><img src="/assets/img/animalfarm.jpg"/></center>
 
 The animals had hoped to form a society where everyone was equal, but the statement that some animals are _“more equal”_ 
 than others exposes a contradiction in the highest law of the land. How can everyone be equal if some are more equal? 
@@ -39,4 +40,5 @@ Creating a system of government that is resistant
 to concentration of power is tricky. The power hungry among us are experts at manipulation and deception. 
 This is why the art of democracy is _subtle_. It must walk a fine line while under constant attack by those
 wishing to co-opt the power of the people for personal gain.
+
 
