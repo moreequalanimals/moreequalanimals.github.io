@@ -1,15 +1,5 @@
 {%- if page.content-type == "notes" or page.permalink == "/notes" -%}
 <header>
-    <div class="notes-page-subheader disable-select">
-        <div class="notes-page-site-heading">
-            <p><a href="/index.html">{{site.title}}</a></p>
-        </div>
-        
-        <div class="notes-page-main-heading">
-            <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p>
-            <p class="notes-page-tagline">The journey from raw thoughts to <a href="/">blogposts</a></p>
-        </div>
-    </div>
     <div class="searchbar search-container">
         <i class="fa fa-search" aria-hidden="true"></i>
         <label for="search-input"></label>
@@ -71,10 +61,10 @@
 <header>
     <div class="dashboard disable-select">
         <div class="site-heading profile-board-col">
-           <h4 ><a class="large" href="/">{{site.title}}</a> 
+           <h4 ><a class="large" href="/">{{site.title}}
            <div class="small">
               The Subtle Art of True Democracy
-           </div>
+           </div></a> 
            </h4>
         </div>
 
@@ -145,15 +135,31 @@
 
         <div class="categories" style="float:right;">
             <a style="text-decoration: none;" href="/tags">
+            <!--
             <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>                               
-            <p class="categories-p">Tags</p>
+            -->
+            <p class="categories-p">Topics</p>
             </a>
         </div>
+        <div class="categories" style="float:right;">
+            <a style="text-decoration: none;" href="/">
+            <!--
+            <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                               
+            -->
+            <p class="categories-p">Home</p>
+            </a>
+        </div>
+        <!--
         <div class="rss" style="float:right;">
             <a style="text-decoration: none;" href="/feed.xml">
                 <svg class="icon-rss" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,6 +170,7 @@
             <p class="rss-p">RSS</p>
             </a>
         </div>
+        -->
     </div>
     <script src="/assets/js/simple-jekyll-search.min.js"></script>
     <script>

@@ -4,6 +4,8 @@ title:  "How to Launch a Crypto Currency Legally while Raising Funds
 "
 author: "Daniel Larimer"
 categories: article
+image: /assets/img/cryptocurrency.jpg
+tags: crypto steemit
 
 ---
 
