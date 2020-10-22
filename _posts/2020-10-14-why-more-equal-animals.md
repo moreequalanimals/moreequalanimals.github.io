@@ -1,7 +1,7 @@
 ---
-title: Why More Equal Animals?
+title: Why I named my blog "More Equal Animals"?
 tags: government
-desc: An explanation for how this website got its name.
+desc: The background for why I call my blog "More Equal Animals".
 comments: true
 image: /assets/img/sheep.jpg
 ---

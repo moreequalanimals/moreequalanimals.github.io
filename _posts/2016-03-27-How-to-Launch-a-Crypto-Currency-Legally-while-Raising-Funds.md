@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to Launch a Crypto Currency Legally while Raising Funds
-"
+title:  "How to Launch a Crypto Currency Legally while Raising Funds"
 author: "Daniel Larimer"
 categories: article
 image: /assets/img/cryptocurrency.jpg
-tags: crypto steemit
+tags: crypto steemit government
+desc: An analysis of laws and precedent related to using a cryptocurrency to generate income to start a business and some the rationalle behind the launch of the Steem blockchain.
 
 ---
 
