@@ -1,9 +1,10 @@
 ---
 title: Why I named my blog 'More Equal Animals'?
 tags: government
-desc: The background for why I call my blog "More Equal Animals".
+desc: In Animal Farm, some animals are more equal than others which contradicted the intent of their animal utopia. This blog is about designing a true democracy that actually makes us more equal without the pitfalls of Animal Farm.
 comments: true
 image: /assets/img/sheep.jpg
+
 ---
 
 
