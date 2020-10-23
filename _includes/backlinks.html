@@ -31,6 +31,7 @@
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
+                <img src="{{ note.image}}"/>
                 <p class="related-title">{{ note.title }}</p>
                 <p class="related-excerpt">{{ note.desc| markdownify | strip_html | truncate: 140 }}</p>
             </a></div>
@@ -41,6 +42,7 @@
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
+                <img src="{{ note.image}}"/>
                 <p class="related-title">{{ note.title }}</p>
                 <p class="related-excerpt">{{ note.desc | markdownify | strip_html | truncate: 140 }}</p>
             </a></div>
