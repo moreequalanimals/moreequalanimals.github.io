@@ -4,4 +4,7 @@
 
 layout: post
 permalink: /
+image: /assets/img/lionlambcloud.jpg
+title: More Equal Animals - The Subtle Art of True Democracy
+desc: A blog discussing pratical approaches to secure life, liberty, property, and justice for all through the creation of true democracy.
 ---

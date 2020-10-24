@@ -1,7 +1,11 @@
 ---
 layout: post
-title: About
+title: About More Equal Animals
 permalink: /about/
+image: /assets/img/lionlambcloud.jpg
+title: About - More Equal Animals
+desc: A blog discussing pratical approaches to secure life, liberty, property, and justice for all through the creation of true democracy.
+
 content-type: eg
 ---
 
@@ -10,7 +14,7 @@ I created the _More Equal Animals_ blog to disseminate thoughts on how to secure
 
 What do we _really_ know about the things our life depends upon such as food, medicine, money, economics, and government? Can we trust the government and media to keep us informed? Should we really trust the experts? If not the government and media, then whom can we trust?
 
-Each and every one of us has a responsibility to understand why we believe what we believe and to root out conflicting beliefs. If we are derelict in this responsibility then we can be easily manipulated by others in ways that are harmful to ourselves and everyone around us. This is why I blog, to better understand the world around me. Each blog post helps me organize my thoughts around a given topic and hopefully help others to do the same.
+Each and every one of us has a responsibility to understand why we believe what we believe and to root out conflicting beliefs. If we are derelict in this responsibility then we can be easily manipulated by others in ways that are harmful to ourselves and everyone around us. This is why I blog, to better understand the world around me. Each blog post helps me organize my thoughts around a given topic and hopefully help others to do the same. For those who are currious abou the name, I wrote a post on [[Why I named my blog 'More Equal Animals'?]].
 
 One thing is certain, I don’t have everything figured out. Jordan Peterson says that we outsource our sanity by interacting with other people. It is my sincere hope that this blog will help bring us all one step closer to sanity, so please join the discussion.
 
@@ -20,7 +24,44 @@ One thing is certain, I don’t have everything figured out. Jordan Peterson say
 
 The best way to reach me is on Twitter. Send me a direct message or mention me as [[@bytemaster7::https://twitter.com/bytemaster7]].
 
+Help me stay in touch with you in the age of censorship by major social media companies.
 
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://moreequalanimals.us2.list-manage.com/subscribe/post?u=b6439a04bb1f51295b2a26004&amp;id=5162367fbd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b6439a04bb1f51295b2a26004_5162367fbd" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 ---
 
 ## Who am I?

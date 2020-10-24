@@ -1,7 +1,7 @@
 
 {%- if page.content-type == "notes" -%}
 {%- assign sameTagCount = 0 -%}
-{%- assign minCommonTags =  1 -%}
+{%- assign minCommonTags =  2 -%}
 {%- for note in site.notes -%}
 {%- assign commonTags = '' -%}
 {%- for tag in note.tags -%}
@@ -89,8 +89,11 @@
         {%- endfor -%}
         {%- if sameTagCount >= minCommonTags -%}
           <div class="related-group"><a href="{{post.url}}">
+            {%- if post.image -%}
+            <img src="{{ post.image}}"/>
+            {%- endif -%}
             <p class="related-title">{{ post.title }}</p>
-            <p class="related-excerpt">{{ post.content | markdownify | strip_html | truncate: 140 }}</p>
+            <p class="related-excerpt">{{ post.desc | truncatewords: 30 }}</p>
           </a></div>
           {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
           {%- if maxRelatedCounter >= maxRelated -%}

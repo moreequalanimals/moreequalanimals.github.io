@@ -25,14 +25,15 @@
 {%- if link_count > 0 -%}
 {%- assign wiki_link_title = '[' | append: page.title | append: ']' -%}
 <div class="related" id="jekyll-seamless-backlinks">
-    <h4 class="medium-small">Linked References</h4>
+    <h4 class="medium-small">Referenced By</h4>
     <div class="related-wrapper">
         {%- for note in site.notes -%}
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
+                <img src="{{ note.image}}"/>
                 <p class="related-title">{{ note.title }}</p>
-                <p class="related-excerpt">{{ note.content | markdownify | strip_html | truncate: 140 }}</p>
+                <p class="related-excerpt">{{ note.desc| markdownify | strip_html | truncate: 140 }}</p>
             </a></div>
             {%- endif -%}
         {%- endif -%}
@@ -41,8 +42,9 @@
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
+                <img src="{{ note.image}}"/>
                 <p class="related-title">{{ note.title }}</p>
-                <p class="related-excerpt">{{ note.content | markdownify | strip_html | truncate: 140 }}</p>
+                <p class="related-excerpt">{{ note.desc | markdownify | strip_html | truncate: 140 }}</p>
             </a></div>
             {%- endif -%}
         {%- endif -%}
@@ -51,8 +53,9 @@
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
+                <img src="{{ note.image}}"/>
                 <p class="related-title">{{ note.title }}</p>
-                <p class="related-excerpt">{{ note.content | markdownify | strip_html | truncate: 140 }}</p>
+                <p class="related-excerpt">{{ note.desc | markdownify | strip_html | truncatewords: 30 }}</p>
             </a></div>
             {%- endif -%}
         {%- endif -%}

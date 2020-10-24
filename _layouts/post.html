@@ -31,7 +31,7 @@
     {%- if page.desc -%}
         <meta content="{{page.desc}}" property="og:description"/> 
     {%- else -%}
-        <meta content="{{page.content | strip_html | strip | escape | truncate: 160}}" property="og:description"/> 
+        <meta content="{{page.content | strip_html | strip | escape | truncatewords: 50}}" property="og:description"/> 
 
     {%- endif -%}
 
@@ -56,6 +56,7 @@
 
     <!-- end mailchip popup -->
 
+    {% seo %}
 </head>
 
 <body>
@@ -68,6 +69,7 @@
                 or page.content-type == "post" 
                 or page.content-type == "eg" -%}
             <main>
+            <center><img src="{{page.image}}"/></center>
                 <h1>{{page.title}}</h1>
                 {%- include content.html -%}
                 {%- include backlinks.html -%}

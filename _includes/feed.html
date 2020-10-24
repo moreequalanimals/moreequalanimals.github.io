@@ -1,21 +1,23 @@
 {%- if page.permalink == "/" -%}
     {%- for item in site.posts -%}
         <div class="feed-title-excerpt-block disable-select" data-url="{{site.url}}{{item.url}}">
+            <br/>
             <a href="{{item.url}}" style="text-decoration: none; color: #555555;">
-            <p style="float:right;padding-left:5px;" >{{ item.date | date: '%m/%d/%y' }}</p>
-            <img src="{{item.image}}" style="float:left;padding-top:15px; padding-right:15px;"/>
             {%- if item.status == "Ongoing" or item.status == "ongoing" -%}
             <ul style="padding-left: 20px; margin-top: 20px;" class="tags">
             <li style="padding: 0 5px; border-radius: 10px;" class="tag"><b>Status: </b>{{item.status | capitalize }}</li>
             </ul>
             <p style="margin-top: 0px;" class="feed-title">{{ item.title }}</p>
             {%- else -%}
+
+            <center><img src="{{item.image}}"/></center>
             <p class="feed-title">{{ item.title }}</p>
             {%- endif -%}
+
             {% if item.desc -%}
             <p class="feed-excerpt">{{ item.desc }} </p>
             {%- else -%}
-            <p class="feed-excerpt"> {{ item.content | strip_html | strip | escape | truncate: 300}}</p>
+            <p class="feed-excerpt"> {{ item.content | strip_html | strip | escape | truncatewords: 50}}</p>
             {%- endif -%}
             </a>
         </div>
