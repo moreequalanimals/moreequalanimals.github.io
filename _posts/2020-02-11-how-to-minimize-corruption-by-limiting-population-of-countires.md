@@ -50,7 +50,7 @@ Higher level governance bodies should have no authority over members of lower-le
 
 In the context of the United States, this means that the Federal Government can tax the States, but not the people in the states. It is up to each State to determine how to collect “taxes” from the counties. Furthermore, counties should have no power over the people in the towns. Instead counties should only collect “taxes” from towns and it is up to each town to determine how it will raise the money to pay their collective tax to the county.
 
-> The Right to Succeed must be held as Fundamental
+> The Right to secede be held as Fundamental
 
 No individual, tribe, town, county, state, or federal government should have the power to compel membership nor prevent a member from leaving. If the southern states wish to leave the union and form their own federal government then they should be free to do so. If a family wishes to leave a church and join another it should be free to do so (assuming another church will have them).
 
