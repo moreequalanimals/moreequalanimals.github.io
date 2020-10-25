@@ -55,7 +55,11 @@
             {%- if post[0].title == nil -%}
             {%- assign post = site.posts | where: 'title',title -%}
             {%- endif -%}
-            {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 500 | newline_to_br -%}
+            {%- if post[0].desc -%}
+              {%- assign excerpt = post[0].desc -%}
+            {%- else -%}
+              {%- assign excerpt = post[0].content | markdownify | strip_html | truncatewords: 50 | newline_to_br -%}
+            {%- endif -%}
             {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
         {%- endif -%}
         {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
@@ -108,7 +112,11 @@
                 {%- if post[0].title == nil -%}
                 {%- assign post = site.posts | where: 'title',title -%}
                 {%- endif -%}
-                {%- assign excerpt = post[0].content | strip_html | truncate: 280 -%}
+                {%- if post[0].desc -%}
+                {%- assign excerpt = post[0].desc -%}
+                {%- else -%}
+                {%- assign excerpt = post[0].content | strip_html | truncatewords: 50 -%}
+                {%- endif -%}
                 {%- assign link_text = '<label for="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle ' | append: sideNoteNum | append: ' ">' | append: toggleLabel | append: '</label><input type="checkbox" id="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle"/><span class="' | append: noteType | append: '"><a href="' | append: post[0].url  | append: '"> <span style="background-color: #ffffc4; color: #555;">Transclusion</span><br/><b>' | append: title | append: '</b><br/>' | append: excerpt | append: '</a></span>' -%}
             {%- else -%}
                 {%- assign link_text = '<label for="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle ' | append: sideNoteNum | append: ' ">' | append: toggleLabel | append: '</label><input type="checkbox" id="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle"/><span class="' | append: noteType | append: '">' | append: title | append: '</span>' -%}
@@ -141,6 +149,10 @@
     <a style="float:left;" class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
     </p>
   {% endif %}
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
   {% if page.next.url %}
   <p>
     <a style="float:right ;" class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>

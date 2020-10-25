@@ -3,8 +3,9 @@ layout: post
 title:  "The basics of Basic Income"
 author: "Daniel Larimer"
 categories: article 
-tags: ubi
-
+image: /assets/img/cashfan.jpg
+tags: ubi economics
+desc: An economic analysis of universal basic income (UBI) and reasons why it isn't economically or morally viable. 
 ---
 
 Fluxer555 from [bitsharestalk.org](https://bitsharestalk.org) recently asked for my opinion on [Basic Income](http://www.reddit.com/r/basicincome/wiki/index).   Seeing as how this topic has been brought to my attention many times since I started down the path of creating BitShares I thought it would be worth while to address it.   

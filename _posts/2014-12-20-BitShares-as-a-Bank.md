@@ -3,8 +3,10 @@ layout: post
 lang: en
 title:  "BitShares as a Bank - The origin of the DAC"
 author: "Daniel Larimer"
-categories: 
-    - article
+tags: economics bitshares
+image: /media/GoldCoinDollar.png
+categories: post
+desc: A description of the economics of BitShares and the origin story for how term Decentralized Autonomous Companies came into use.
 ---
 
 My father and I were discussing BitShares one evening (fall 2013) and I was trying to describe how BitShares is different from an altcoin.   I used an analogy that described BitShares as a crypto-equity in a decentralized bank and exchange called BitShares.  The shareholders of the bank are those who own bitshares (BTS).   I then went on to explain how this decentralized bank can create dollars just like their centralized counterparts.  I posted a variation of this article on Let's Talk Bitcoin and it launched the concept of a DAC (**D**ecentralized **A**utonomous **C**orporation).   
@@ -15,10 +17,6 @@ Since then legal worry worts have relabeled the concept of a DAC into DAOs (Orga
 ## Overview of Modern Banking 
 
 All banks these days operate on what I like to call a *fictional* reserve basis.  When you approach the bank for a loan to buy a house, the bank creates new dollars from thin air backed by your collateralized promise to pay back the loan.  In this case, your house is the collateral and the bank may call your loan and foreclose if you stop making the required payments or if the value of the house falls too much.   When you pay off your loan the dollars are destroyed and the bank keeps the interest payments and the lien is removed from your house.   The key thing to remember here is that these dollars are nothing more than an IOU from the bank.   People trust the value of the IOUs because they trust the bank to honor their promise to pay a dollars worth of value.
- 
-<center>
-<img src="/media/GoldCoinDollar.png"/>
-</center>
 
 Let's step back one step further and consider that a dollar use to be defined as  412.5 grains of 99.9% pure silver.   When you received a bank note it was a promise to pay  one dollar worth of gold and the law defined the fixed ratio of gold to silver required to give the bank note a tie to the real world.
 
