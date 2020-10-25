@@ -1,7 +1,7 @@
 ---
 title: The Limits of Crypto-Economic Governance
 desc: My response to Vitalik Buterin's critique of my Delegated Proof of Stake consensus algorithm.
-tags: vitalik government economics blockchain dpos ethereum dpos
+tags: vitalik government economics blockchain dpos ethereum 
 image: /assets/img/ai.png
 
 ---
