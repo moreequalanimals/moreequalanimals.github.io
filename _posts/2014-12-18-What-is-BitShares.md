@@ -8,6 +8,7 @@ featured: true
 banner_image: "/media/cover_asset.jpg"
 
 categories: update
+tags: bitshares
 sharing: true
 
 ---

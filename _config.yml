@@ -1,7 +1,6 @@
 title: More Equal Animals
 name: Daniel Larimer
 user_description: Programmer, Entrepreneur, Philosopher
-notes_url: "https://moreequalanimals.com"
 profile_pic: /assets/img/dlcaricature.jpg
 favicon: /assets/img/favicon.png
 copyright_name: Daniel Larimer
@@ -42,9 +41,3 @@ defaults:
       layout: post
       permalink: /posts/:title
       content-type: post
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: post
-      content-type: notes

@@ -1,8 +1,10 @@
 ---
+
 layout: post
 title:  "How BitShares Prevents Front Running"
 author: "Daniel Larimer"
-categories: article 
+categories: post  
+tags: bitshares
 redirect_from: "/article/2015/1/29/Why-BitShares-Front-Runs-Orders/"
 ---
 Front running happens when a broker executes his own orders prior to executing the orders of his customers.   This can be extremely profitable to the broker which can buy a stock just before a large buy order pushes the price up and then sell the stock just before a large sell order pushes the price down.  This can occur any time one market participant has the ability to see orders from other participants and insert new orders in front of them.   BitShares has an open order book and all transactions are broadcast for all to see with up to 10 seconds notice.  This means that anyone can see your order and change their order to maximize their own profit.  To protect users BitShares uses a *you get what you asked for* (YGWYAF) market engine that produces the same result for the market participants as perfect front running.  This article explains why.

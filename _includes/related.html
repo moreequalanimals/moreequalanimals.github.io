@@ -93,7 +93,11 @@
             <img src="{{ post.image}}"/>
             {%- endif -%}
             <p class="related-title">{{ post.title }}</p>
+            {%- if post.desc-%}
             <p class="related-excerpt">{{ post.desc | truncatewords: 30 }}</p>
+            {%- else -%}
+            <p class="related-excerpt"> {{ post.content | strip_html | strip | escape | truncatewords: 20}}</p>
+            {%- endif -%}
           </a></div>
           {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
           {%- if maxRelatedCounter >= maxRelated -%}

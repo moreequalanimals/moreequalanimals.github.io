@@ -3,6 +3,8 @@ layout: post
 title:  "Why I like Ethereum"
 categories: blog
 author: "Daniel Larimer" 
+tags: ethereum blockchain crypto
+
 ---
 
 I have said many negative things about Ethereum in the past, but today I would like to change that. 

@@ -2,7 +2,8 @@
 layout: post
 title:  "How to Measure the Decentralization of Bitcoin"
 author: "Daniel Larimer"
-categories: article 
+categories: post 
+tags: bitcoin crypto
 ---
 The crypto currency community is full of people making wild claims about the relative centralization of various projects.   Calling something centralized is like calling someone racist; it starts to lose all meaning unless you are extremely careful in how you define it.  Decentralization has become a kind of religion, when in reality it is merely a tactic to deal with certain kinds of corruption and attacks.   Today I would like to document how I measure decentralization of various crypto projects. 
 
@@ -27,7 +28,7 @@ Debates about Proof of Stake (POS) often get side tracked based upon artifacts o
 
 If we look at the Bitcoin wealth distribution as an example, you will find that the top 1% of BTC holders own around 78% of all BTC.   Based upon estimates of the number of users this means less than 2800 people control 78% of the stake.   The wealth distribution of these 2800 people is not even.  Just 47 individuals control 28.9% of bitcoin, another 880 individuals control 21.5% for a total of 51% of Bitcoin controlled by about 1028 individuals.
 
-<img src="/media/bitcoindistribution.png"/>
+<img src="/assets/img/bitcoindistribution.png"/>
 
 If these top 1000 individuals were participating on a Proof of Stake system and all had the same stake, then we could give the network a decentralization ranking of 10.  However, if you were to take a moving average of the number of unique people participating in a moving window of 1000 blocks, then 47 individuals would count for 57% of the block production leaving 43% of the block production to a subset of 880 individuals.   This means that in any given window of 1000 blocks, less than 475 individuals would be participating.   This gives us a decentralization ranking of 9.   What is worse, is that only 10% of the participants matter because they collectively account for more than 51% of every 1000 blocks which gives us a decentralization rating of just 6.
 
