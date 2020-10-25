@@ -3,6 +3,8 @@ layout: post
 title:  "Use Gold with BitShares to bypass Fiat Regulations"
 author: "Daniel Larimer"
 categories: article 
+tags: bitshares crypto defi 
+
 ---
 
 <a href="http://www.amazon.com/gp/product/B00O9DD44I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00O9DD44I&linkCode=as2&tag=bytesblog-20&linkId=4YFPJJCF2MM63L73"><img style="float:left;margin-right:25px" border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00O9DD44I&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=bytesblog-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=bytesblog-20&l=as2&o=1&a=B00O9DD44I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

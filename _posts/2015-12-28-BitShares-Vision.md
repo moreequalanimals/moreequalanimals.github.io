@@ -3,6 +3,8 @@ layout: post
 title:  "BitShares Vision"
 categories: update
 author: "Daniel Larimer" 
+tags: bitshares
+
 ---
 A new year, calls for a renewed vision and direction for BitShares. For too long BitShares has been evolving without any clearly and consistently stated purpose or direction. Today I would to cast my vision for BitShares in 2016 and the years beyond. The most high level vision is to create a well ordered society that is governed in a manner that fully adheres to the Non Aggression Principle (NAP).  
 <!--more-->

@@ -3,6 +3,7 @@ layout: post
 title:  "Can MaidSafe Decentralize the Internet?" 
 author: "Daniel Larimer"
 categories: article 
+tags: crypto
 ---
 
 I have been following [MaidSafe](http://maidsafe.net/) since before I learned about Bitcoin and I learned about Bitcoin back when I could still mine full blocks with my own CPUs.    Back in those early days MaidSafe was not creating a crypto-currency and instead focusing mostly on distributed storage.  Much has changed since then and there are many great things that MaidSafe is doing.   Today I would like to offer my opinions on their efforts.

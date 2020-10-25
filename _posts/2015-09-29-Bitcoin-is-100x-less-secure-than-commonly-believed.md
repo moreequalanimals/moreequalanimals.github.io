@@ -4,6 +4,7 @@ lang: en
 author: "Daniel Larimer"
 title: "Bitcoin is 100x less secure than commonly believed"
 
+tags: bitcoin crypto
 categories: update
 sharing: true
 

@@ -3,7 +3,9 @@ layout: post
 title:  "The Road to Universal .p2p Resolution"
 author: "indolering"
 categories: delegate 
+tags: bitshares dns blockchain
 ---
+
 The following is a [repost](http://www.indolering.com/universal-p2p-resolution) of the delegate bid by Indolering.  Indolering spent a week with us in early January to help revive our vision for DNS under BitShares.   Indolering has presented one of the best, most comprehensive delegate bids to date.  Here is what he had to say:
 
 <hr/>

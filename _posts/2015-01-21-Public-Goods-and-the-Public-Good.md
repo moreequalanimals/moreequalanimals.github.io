@@ -3,9 +3,10 @@ layout: post
 title:  "Public Goods and the Public Good" 
 author: "Daniel Larimer"
 categories: article 
+tags: government economics vitalik 
 ---
 
-It isn’t easy taking a hard line against violence while searching for viable solutions to secure the life, liberty, and property from all.   I don’t just preach non violence and then hope for the best, I actively look for creative solutions that can be implemented today.  Every now and then someone like Vitalik Buterin will [post a challenge](https://bitsharestalk.org/index.php?topic=13338.msg176331#msg176331) to my views.   Today I would like to address this most recent challenge. 
+It isn’t easy taking a hard line against violence while searching for viable solutions to secure the life, liberty, and property for all.   I don’t just preach non violence and then hope for the best, I actively look for creative solutions that can be implemented today.  Every now and then someone like Vitalik Buterin will [post a challenge](https://bitsharestalk.org/index.php?topic=13338.msg176331#msg176331) to my views.   Today I would like to address this most recent challenge. 
 
 Vitalik posted a link to an article titled [“The Non-Libertarian FAQ (aka Why I Hate Your Freedom)”](http://www.raikoth.net/libertarian.html) that has been circulating around the crypto currency community since 2011.   This article is an attempt to undermine the very foundation of libertarianism.    
 
@@ -103,7 +104,3 @@ Those that argue that libertarianism and the free market are not automatically b
 So the question you must ask yourself is, will you be part of a non-violent solution and participate in the profit that will be earned by those providing life, liberty, and property or will you sit on the sidelines and let others jump in first and reap the largest rewards.  It doesn’t take much to make a difference and make a profit.  Help me change the world and join BitShares today.   
 
 
-   <center>
-      <a href="{% post_url  2014-12-22-Join-the-BitShares-Community %}" onclick="BTSW.action('clicked Join Now', 'button');"><img width="400px" src="/media/join_now_button.jpg"/></a>
-      <br/>
-   </center>
