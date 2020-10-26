@@ -2,7 +2,7 @@
 title: Decentralizing in spite of Pareto Principle
 desc: An exploration of ways to overcome the pareto principle (aka the 80/20 rule) which forces most systems into control of the of 1%. 
 image: /assets/img/pareto.png
-tags: blockchain dpos eos bitcoin crypto government
+tags: blockchain dpos eos bitcoin crypto government decentralization
 ---
 
 Bitcoin was created with the intent of  decentralizing control over block production  so that there is  no single point of failure or control. The idea is to randomly select people from the population to produce blocks and reward them for their contribution. To  prevent  gaming the selection process by creating “fake machines”, Satoshi introduced proof of work. Each computer had to perform a computational lottery that cannot be faked.

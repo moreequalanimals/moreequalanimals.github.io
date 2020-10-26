@@ -3,7 +3,7 @@ layout: post
 title:  "How to Measure the Decentralization of Bitcoin"
 author: "Daniel Larimer"
 categories: post 
-tags: bitcoin crypto
+tags: bitcoin crypto blockchain decentralization
 ---
 The crypto currency community is full of people making wild claims about the relative centralization of various projects.   Calling something centralized is like calling someone racist; it starts to lose all meaning unless you are extremely careful in how you define it.  Decentralization has become a kind of religion, when in reality it is merely a tactic to deal with certain kinds of corruption and attacks.   Today I would like to document how I measure decentralization of various crypto projects. 
 

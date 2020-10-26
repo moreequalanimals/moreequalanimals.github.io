@@ -3,6 +3,7 @@ layout: post
 title:  "The Worlds First Decentralized Exchange"
 author: "Daniel Larimer"
 categories: article 
+tags: blockchain defi decentralization bitshares crypto
 ---
 The centralized exchanges the world has known throughout history have proven unreliable and
 untrustworthy time and again.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/), [Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/), or [BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/) we have seen 

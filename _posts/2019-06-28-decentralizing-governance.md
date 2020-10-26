@@ -2,7 +2,7 @@
 title: Decentralizing Governance
 image: /assets/img/olympic-rings.jpg
 desc: Explores ways to maximize the quality of those we put in power while preventing the most corrupt from taking over.
-tags: government blockchain eos democracy
+tags: government blockchain eos democracy decentralization
 ---
 
 History is littered with failed attempts at governance,  the primary aim of which is to create a level playing field in which mankind can prosper. The primary threat of all governance systems is tyranny of the majority by a minority or any system that creates an unleveled playing field. A level playing field is like a board carefully balanced on a point, once it starts to lean it gains momentum with a positive feedback loop which accelerates the rate at which the board is tilted until it is completely falls over.

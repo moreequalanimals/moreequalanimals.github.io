@@ -10,7 +10,7 @@ content-type: eg
 ---
 
 
-I created the _More Equal Animals_ blog to disseminate thoughts on how to secure life, liberty, property and justice for all. While this blog started in 2020, I have been on this mission since 2006 when I decided to take responsibility for my understanding of the world around me and stop relying upon the opinions of friends and family.
+I created the _More Equal Animals_ blog to disseminate thoughts on how to secure life, liberty, property and justice for all. While moreequalanimals.com started in 2020, I have been on this mission since 2006 when I decided to take responsibility for my understanding of the world around me and stop relying upon the opinions of friends and family. I have aggregated my blog posts going back to 2014 from multiple platforms including: [[bytemaster.github.io::https://bytemaster.github.io]], [[dan@steemit::https://steemit.com/@dan/posts]], [[dantheman@steemit::https://steemit.com/@dantheman/posts]], [[bytemaster@medium.com::https://medium.com/@bytemaster]], and [[dan@voice.com::https://app.voice.com/profile/dan]].
 
 What do we _really_ know about the things our life depends upon such as food, medicine, money, economics, and government? Can we trust the government and media to keep us informed? Should we really trust the experts? If not the government and media, then whom can we trust?
 

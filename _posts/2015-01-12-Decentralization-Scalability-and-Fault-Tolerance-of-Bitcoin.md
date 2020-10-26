@@ -3,6 +3,7 @@ layout: post
 title:  "Decentralization, Scalability, and Fault Tolerance of Bitcoin"
 author: "Stan Larimer & Daniel Larimer"
 categories: article 
+tags: decentralization bitcoin crypto blockchain
 ---
 Bitcoin is all about decentralizing the control over money through objective consensus on ownership.  What often gets lost in the discussion is the
 difference between decentralization, scalability, and fault tolerance.   Bitcoin is an example of a decentralized system whose scalability

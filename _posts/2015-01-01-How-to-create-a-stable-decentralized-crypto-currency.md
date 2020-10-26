@@ -5,6 +5,8 @@ title:  "How to Create a Stable Decentralized Crypto Currency"
 author: "Daniel Larimer"
 categories: 
     - article
+tags: decentralization vitalik defi
+
 ---
 In my [prior post]({% post_url 2014-12-31-Stable-Crypto-Currencies-are-Impossible %}) I made the argument that a stable currency was both impossible and undesirable.   What we really want is a currency that grows in value at the same rate as the economy as a whole.   Since then [Vitalik has responded with some critiques](https://bitsharestalk.org/index.php?topic=12545.msg168159#msg168159) that made me realize I didn’t present the argument as clearly as I could have.  There was confusion over the difference between pegging assets and creating a stable currency.   My argument boiled down to the fact that only fiat currencies are considered stable and pegging to a fiat currency isn’t decentralized nor stable.  
 
