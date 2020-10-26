@@ -3,7 +3,7 @@ layout: post
 title:  "Decentralization of Nxt vs. BitShares"
 author: "Daniel Larimer"
 categories: post 
-tags: bitshares crypto blockchain
+tags: bitshares crypto blockchain decentralization
 ---
 
 There has been an ongoing debate over the relative decentralization of various projects.  I have made several posts where I analyse things from

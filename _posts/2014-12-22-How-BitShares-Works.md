@@ -5,6 +5,8 @@ title:  "How BitShares Works"
 author: "logicalgrackle"
 categories: 
     - guest
+
+tags: defi crypto bitshares
 ---
 BitShares is a platform for stable value cryptocurrencies. There are now digital versions of dollars, yuan and gold that have the same prices and stability as their counterparts, but with all the advantages of cryptocurrencies. You can send them anywhere in the world for miniscule fees, and you have full control over your money, so it isn’t frozen or lost when the banking system runs into crises. You need to understand how these BitAssets work so you can take advantage of price stability on the blockchain.
 
@@ -21,8 +23,9 @@ BitAssets are better money. Today, the primary users are cryptocurrency traders 
 
 I hope you now know enough about BitShares to know what you learn about next: [how the market pegs work]({% post_url 2014-12-18-What-are-BitShares-Market-Pegged-Assets %}), how to earn yield on BitAssets, and how to buy bitshares to be a part of this huge revolution in money. Price stability was the best argument against cryptocurrencies. I don’t think there are any good arguments left.
 
-Related Articles:
-[What are BitShares Market Pegged Assets?]({% post_url 2014-12-18-What-are-BitShares-Market-Pegged-Assets %})
+See related:
 
-[What is BitShares?]({% post_url 2014-12-18-What-is-BitShares %})
+[[What are BitShares Market Pegged Assets?]]
+
+[[What is BitShares?]]
 
