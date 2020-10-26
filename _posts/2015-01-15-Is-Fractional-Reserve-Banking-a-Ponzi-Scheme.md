@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Is Fractional Reserve Banking a Ponzi Scheme?"
-image: assets/img/blocks.jpg
+image: /assets/img/scamsign.jpg
 author: "Daniel Larimer"
 categories: article 
-tags: banking
+tags: banking bitshares economics
 ---
 Fractional reserve banking has been practiced almost since the beginning of banking.  It is at the heart of all bank runs and is the reason the Federal Reserve was created.   I have long believed fractional reserve lending to be an inherent evil leading to the inflation of the money supply and the boom/bust business cycle.   I suspect that a most libertarians and crypto-currency enthusiasts have also developed a negative opinion about fractional reserves.  In fact I have often referred to the system as *fictional* reserve banking.     
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topics
+title: All Topics
 permalink: /tags/
 content-type: eg
 ---

@@ -3,6 +3,8 @@ layout: post
 title:  "How to build a Decentralized Application without Fees"
 author: "Daniel Larimer"
 categories: article
+tags: steemit eos blockchain
+image: /assets/img/paytoll.jpg
 
 ---
 
