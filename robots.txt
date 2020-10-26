@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: https://moreequalanimals.com/sitemap.xml
