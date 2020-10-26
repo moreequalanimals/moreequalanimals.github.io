@@ -4,8 +4,10 @@ title:  "Provably Honest Online Elections are Possible"
 author: "Daniel Larimer"
 categories: article
 featured: true
-banner_image: "/media/cover_asset.jpg"
+image: /assets/img/ballot-box.png
 sharing: true
+tags: democracy blockchain government
+
 ---
 
 Moving elections online is a very controversial subject because it is something everyone would like, but it is not trivial to implement in a provably honest manner.    There are countless articles around the internet that throughly document how even electronic voting or vote counting is unverifiable and cannot be trusted.   The worries about electronic voting are so strong that many people suggest that only a manually counted paper ballot system can be trusted.   While many may be content to accept paper ballots as the “least bad option”, I would like to present new approach that is provably honest.
