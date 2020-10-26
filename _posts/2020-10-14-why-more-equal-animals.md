@@ -1,5 +1,5 @@
 ---
-title: Why I named my blog 'More Equal Animals'?
+title: Why I named my blog 'More Equal Animals'
 tags: government
 desc: In Animal Farm, some animals are more equal than others which contradicted the intent of their animal utopia. This blog is about designing a true democracy that actually makes us more equal without the pitfalls of Animal Farm.
 comments: true
@@ -31,15 +31,16 @@ they magnify the difference between the most powerful and least powerful individ
 
 With a wide enough tolerance for difference, all animals can be considered equal (they all fall in the animal kingdom), 
 but some animals are more equal than others (they have the same species). Marxism aims to make all animals equal in wealth, 
-but in doing so makes them unequal in power. Unequal power results in unequal wealth.
+but in doing so makes them extremely unequal in power. Extreme power inequality power results in extreme wealth inequality.
 
 This blog is about making people more equal in power and letting the wealth fall where it may. 
 The premise being that all wealth is created using _manpower_ and if men were more equal in terms of power, 
-then they would naturally be more equal in terms of wealth. 
+then they would naturally be more equal in terms of wealth. One of the primary ways of achieving that objective is
+by using [[decentralization::/tags/decentralization]].
 
-Creating a system of government that is resistant 
-to concentration of power is tricky. The power hungry among us are experts at manipulation and deception. 
-This is why the art of democracy is _subtle_. It must walk a fine line while under constant attack by those
+Creating a system of [[government::/tags/government]] that is resistant to concentration of power is tricky. 
+The power hungry among us are experts at manipulation and deception.  This is why the art of democracy is _subtle_. 
+It must walk a fine line while under constant attack by those
 wishing to co-opt the power of the people for personal gain.
 
 

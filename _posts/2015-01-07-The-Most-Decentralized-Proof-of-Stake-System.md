@@ -3,7 +3,7 @@ layout: post
 title:  "The most Decentralized Proof of Stake (POS) system."
 author: "Daniel Larimer"
 categories: article
-tags: decentralization blockcain dpos crypto
+tags: decentralization blockchain dpos crypto
 ---
 All too often I see people making the claim that Delegated Proof of Stake is too centralized, but centralization is all relative.  Today I would like to explore the meaning of decentralization as it relates to Proof of Stake systems and compare the top 3 approaches: BitShares, Nxt, and Peercoin.  My aim is to be as objective as possible.
 

@@ -14,7 +14,7 @@ I created the _More Equal Animals_ blog to disseminate thoughts on how to secure
 
 What do we _really_ know about the things our life depends upon such as food, medicine, money, economics, and government? Can we trust the government and media to keep us informed? Should we really trust the experts? If not the government and media, then whom can we trust?
 
-Each and every one of us has a responsibility to understand why we believe what we believe and to root out conflicting beliefs. If we are derelict in this responsibility then we can be easily manipulated by others in ways that are harmful to ourselves and everyone around us. This is why I blog, to better understand the world around me. Each blog post helps me organize my thoughts around a given topic and hopefully help others to do the same. For those who are currious abou the name, I wrote a post on [[Why I named my blog 'More Equal Animals'?]].
+Each and every one of us has a responsibility to understand why we believe what we believe and to root out conflicting beliefs. If we are derelict in this responsibility then we can be easily manipulated by others in ways that are harmful to ourselves and everyone around us. This is why I blog, to better understand the world around me. Each blog post helps me organize my thoughts around a given topic and hopefully help others to do the same. For those who are currious abou the name, I wrote a post on [[Why I named my blog 'More Equal Animals']].
 
 One thing is certain, I don’t have everything figured out. Jordan Peterson says that we outsource our sanity by interacting with other people. It is my sincere hope that this blog will help bring us all one step closer to sanity, so please join the discussion.
 
@@ -87,8 +87,8 @@ It was this perspective that led me to invent one of the most widely used consen
 
 Each one of these projects was a social experiment in community building, governance, economic incentives, and game theory. I learned a lot about human nature, coordination problems, community governance and voting systems.
 
-During this time I was also granted [[patents::https://patents.justia.com/inventor/daniel-j-larimer]] for provably honest voting systems and decentralized identity validation. Unfortunately, I also learned that our government effectively outlaws “_provably honest voting_” through mandating rules that make election tampering impossible to catch. I file that under things that make you go “_hmmmm_”.
-
+During this time I was also granted [[patents::https://patents.justia.com/inventor/daniel-j-larimer]] for provably honest voting systems and decentralized identity validation. Unfortunately, I also learned that our government effectively outlaws “_provably honest voting_” through mandating rules that make election tampering impossible to catch. I file that under things that make you go “_hmmmm_”. [[Provably Honest Online Elections are Possible]].
+ 
 
 
 I built my career on challenging the dogmas in the crypto currency space and identifying the underlying fundamental principles at play. It was the understanding of these principles that allowed me to create the first self-funding, self-governing, decentralized global communities.
