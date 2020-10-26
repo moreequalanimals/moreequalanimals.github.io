@@ -14,7 +14,7 @@ Most things in life and nature are distributed according to the Pareto Principle
 To make things worse, proof of work is something that is easily delegated / outsourced; therefore, mining pools have taken over. Economies of scale mean that only a small number of mining pools make sense and ultimately 51% of block production is performed by just a handful of people and this handful is selected by a slightly larger, but still quite small, group of professional miners. It would not be unreasonable to assume that 99.99% of blocks are produced by 0.01% of the Bitcoin using population.
 
 <center>
-![](/assets/img/bitcoinhashpower.png)
+<img src="/assets/img/bitcoinhashpower.png"/>
 Bitcoin Hashpower Distribution
 </center>
 
