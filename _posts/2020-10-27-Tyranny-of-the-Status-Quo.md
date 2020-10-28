@@ -1,6 +1,6 @@
 ---
 title: Tyranny of the Status Quo
-desc: The vast majority of people don't approve of the government we have. What can we do about it? A sneak peak of my upcomming book. 
+desc: The vast majority of people don't approve of the government we have. What can we do about it? A sneak peek of my upcomming book. 
 tags: government democracy
 image: /assets/img/police.jpg
 
