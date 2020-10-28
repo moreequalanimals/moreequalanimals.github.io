@@ -6,7 +6,7 @@ image: /assets/img/police.jpg
 
 ---
 
-> _What follows is an sneak peak exerpt from my upcomming book which addresses the subtle art of true democracy. Democracy is another word for "decentralization of power" and group consensus building. Enjoy!_  
+> _What follows is an sneak peek exerpt from my upcomming book which addresses the subtle art of true democracy. Democracy is another word for "decentralization of power" and group consensus building. Enjoy!_  
 
 -----
 
