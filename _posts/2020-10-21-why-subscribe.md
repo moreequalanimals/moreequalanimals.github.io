@@ -13,6 +13,5 @@ in order to get updates.
 
 Help bring true democracy to the world, subscribe now!
 
-<div data-mooform-id="98af9934-3193-4de4-a232-74c7046a61fe" ></div>
 
 
