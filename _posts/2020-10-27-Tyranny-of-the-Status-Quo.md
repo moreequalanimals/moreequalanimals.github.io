@@ -1,12 +1,12 @@
 ---
 title: Tyranny of the Status Quo
-desc: The vast majority of people don't approve of the government we have. What can we do about it? A sneak peek of my upcomming book. 
+desc: The vast majority of people don't approve of the government we have. What can we do about it? A sneak peek of my upcoming book. 
 tags: government democracy
 image: /assets/img/police.jpg
 
 ---
 
-> _What follows is an sneak peek exerpt from my upcomming book which addresses the subtle art of true democracy. Democracy is another word for "decentralization of power" and group consensus building. Enjoy!_  
+> _What follows is an sneak peek exerpt from my upcoming book which addresses the subtle art of true democracy. Democracy is another word for "decentralization of power" and group consensus building. Enjoy!_  
 
 -----
 
