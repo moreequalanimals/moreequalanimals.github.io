@@ -55,6 +55,10 @@ To achieve logical decentralization, global blockchain communities must grow bey
 
 All communities that desire decentralization of power must have a plan to grow from a single logically centralized system into multiple independent logically decentralized and lightly coupled systems. In effect, decentralization requires mimicking biology and establishing a plan for cell division.
 
+<center>
+<img src="/assets/img/celldivision.png"/>
+</center>
+
 
 
 The “maximalists” that insist on one currency, one economy, and one indivisible government lay the foundation for tyranny and centralized control. It doesn’t matter how many people vote (or have hash power) if they ultimately elect a small group to lead them. If decisions are one-size fits all then regardless of the “governance process” the system is logically centralized.
