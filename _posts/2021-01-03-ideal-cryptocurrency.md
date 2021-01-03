@@ -21,7 +21,7 @@ We have all observed how centralization of power in banking leaves everyone at t
 
 
 
-Decentralization is gorilla economic warfare against economic empires. These technologies enable people to collaborate outside the government’s control grid and escape the government manipulation in gold, silver, and fiat money. They enable people to communicate without censorship and reach a new consensus.
+Decentralization is guerrilla economic warfare against economic empires. These technologies enable people to collaborate outside the government’s control grid and escape the government manipulation in gold, silver, and fiat money. They enable people to communicate without censorship and reach a new consensus.
 
 
 
