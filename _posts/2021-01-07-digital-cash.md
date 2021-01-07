@@ -9,7 +9,7 @@ Blockchain technology has enabled a host of digital currencies and smart contrac
 
 
 
-An ideal cryptocurrency should act like coper coins that you can transmit instantly anywhere in the world without a fee. I use coper in the analogy because gold and silver are not sufficiently divisible without adoption of financial intermediaries, aka banks. Unless Bitcoin transaction fees fall substantially then Bitcoin is far less divisible than gold, silver, and coper.
+An ideal cryptocurrency should act like copper coins that you can transmit instantly anywhere in the world without a fee. I use copper in the analogy because gold and silver are not sufficiently divisible without adoption of financial intermediaries, aka banks. Unless Bitcoin transaction fees fall substantially then Bitcoin is far less divisible than gold, silver, and copper.
 
 
 
