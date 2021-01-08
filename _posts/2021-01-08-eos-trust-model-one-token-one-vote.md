@@ -1,6 +1,6 @@
 ---
 title: EOS Trust Model under One-Token One-Vote
-desc: The EOS community will need to reconsider its trust model if it switches to one token one vote.
+desc: The EOS community will need to reconsider its trust model for CPU billing if it switches to one token one vote.
 image: /assets/img/timemoney.jpg
 tags: eos blockchain etheruem government 
 ---
