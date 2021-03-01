@@ -4,11 +4,12 @@ image: /assets/img/MoreEqualAnimalsCoverPreview.png
 tags: government economics book
 ---
 
-<a href="/assets/MoreEqualAnimals-1.15.2021.pdf">
-<img src="/assets/img/MoreEqualAnimalsCover.jpg" width="25%" style="float:right;padding:15px"/><br/>
-</a>
 
-Today I am excited to announce that my book, [“More Equal Animals - The Subtle Art of True Democracy”]({{site.url}}/assets/MoreEqualAnimals-1.15.2021.pdf) available for download by all. In the near future it will also be available in print.
+<div style="float:right;padding:15px">
+<a href="https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&amp;b=p_bu-ba-or" target="BookShop" style="display:inline-block; text-align: center; " title="More Equal Animals by Daniel Larimer"><img src="https://store.bookbaby.com/BookShop/CommonControls/BookShopThemes/bookshop/OnePageBookCoverImage.jpg?BookID=BK90050700" alt="Book Cover Image" width="110" height="160" style="position: relative; top: 20px;"></a>
+</div>
+
+Today I am excited to announce that my book, [“More Equal Animals - The Subtle Art of True Democracy”]({{site.url}}/assets/MoreEqualAnimals-1.15.2021.pdf) available for download by all. It is also available in [print and e-book formats](https://store.bookbaby.com/book/More-Equal-Animals).
 
 
 
@@ -52,12 +53,22 @@ Society breaks down when any aspect of consent breaks down or is corrupted. This
 
 Please sign up to my news letter below to be notified when the print edition is available. In the mean time, you can continue reading by downloading the the PDF.
 
-<h1><center>
-<a href="/assets/MoreEqualAnimals-1.15.2021.pdf">
-<img src="/assets/img/MoreEqualAnimalsCover.jpg" width="50%"/><br/>
-Download Now!"</a>  
+<center>
+<a href="https://store.bookbaby.com/book/More-Equal-Animals">
+<img src="/assets/img/MoreEqualAnimalsCover.jpg" width="50%"/>
+</a><br/>
 
-</center></h1>
+<a href="https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&amp;b=c_bu-bu-or" target="BookShop" style="display: inline-block; text-align: center; background: url('https://www.bookbaby.com/bnb/c/bu-bu-or.png') 0 0 no-repeat; background-size: 124px; width: 124px; height: 40px;" title="More Equal Animals by Daniel Larimer"></a>
+<br/><br/>
+<i>or</i>
+<h1>
+<a href="/assets/MoreEqualAnimals-1.15.2021.pdf">
+Download Now</a>  
+</h1>
+
+
+
+</center>
 
 <br/>
 <br/>
