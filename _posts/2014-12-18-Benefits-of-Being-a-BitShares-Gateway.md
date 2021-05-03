@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Benefits of Becoming a BitShares Gateway"
 categories: update
 author: "Daniel Larimer" 

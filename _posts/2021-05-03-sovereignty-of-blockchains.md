@@ -1,0 +1,89 @@
+---
+title: The Sovereignty of Blockchains
+image: /assets/img/sovereignty-of-blockchain.jpg
+tags: government economics book eden eos blockchain
+---
+
+Public blockchains such as Bitcoin, Ethereum, Hive, and EOS are supranational organizations of people cooperating to reach consensus. This means they exist in a realm beyond the jurisdiction of any country. It is the supranational nature of blockchain that creates the potential to provide freedoms that exist outside the absolute control of any individual country or regulator. A blockchain is sovereign over the consensus of the people who use it. There are no higher courts of appeal than the consensus process and it is this sovereignty that serves as the core value proposition of decentralized public blockchains. In this post, I hope to make the case that it is in everyone’s interest to support the independence and sovereignty of community consensus even if you disagree with the outcome.
+
+The consensus of blockchain communities depends on a user base’s universal agreement on the deterministic code interpreting the agreed ordering of signed messages. This agreement on code and order is the ultimate authority and the source of the sovereignty of all blockchains. This means that the definition of “right” and “wrong” is determined by two methods: code is law, and use is consent.
+
+When someone buys a token they are joining a sovereign community and consenting to the chosen consensus algorithm. This is like buying land in a new country and the land is subject to that country's sovereign laws. When you sell a token it is like selling land and freeing your property from that country’s laws. If the Supreme Court of The United States makes a ruling that authorizes the transfer of your land (within the USA) to someone else or to the government, then no other country has the right or power to reverse that decision. Only a change in the laws of the United States whether by elected legislators or a popular revolution can reverse the decision.
+
+## Revolution vs. Legislation
+
+When it comes to blockchains, a revolution is expressed as a User Activated Hard Fork and occurs when the majority of influential users switch to a new code base and thereby change the consensus rules without any consideration for the sovereignty of the status quo “powers that be”, within a blockchain community. Examples of this include Bitcoin/BitcoinCash/SV, Ethereum/Ethereum Classic, and Steem/Hive. All of these “forks” required the users of a blockchain to upgrade their code and the dissenters had the option of maintaining the old blockchain based upon the prior code. In effect, User Activated Hard Forks are like secession movements where a subset of a country's population and territory create a new sovereign country.
+
+A “legislation” driven change in the sovereign blockchain law occurs when the rules of the existing “code” are used to upgrade the “code”. Some blockchains, like EOS, Hive, and BitShares, have powerful on-chain governance mechanisms which enable them to express community consensus on subjective matters through elected representatives. These subjective matters include the concept that the “intent of code is law” and it empowers communities to fix bugs without a “revolution”. EOS, in particular, is one of the most powerful and dynamic “legislative” consensus algorithms out there because the vast majority of its “law” or “code” is implemented as a smart contract that can be updated by elected representatives according to the existing objective “code is law” framework. This means that the EOS community is incredibly flexible and able to achieve a far more powerful consensus on subjective matters without risking a blockchain revolution.
+
+With great power comes great responsibility. If the elected representatives of a DPOS chain (Delegated Proof of Stake) such as EOS, Hive, and others abuse their power then the community can and will start a blockchain revolution/secession movement. This is what happened when Tron bought Steemit and started acting in ways disapproved of by the community. When the community took “legislative action” to lock Steemit’s account, Steemit worked with exchanges to exercise the power of their depositor’s tokens to “reverse” the prior “legislative action” and ram through Steemit’s own “legislative” changes to the protocol. Ultimately, the community revolt took the form of secession where a large percentage of the user base left to form HIVE. Today, Steem is worth $350m and Hive is worth $250m. Both sides took “legislative” action to seize the tokens that belonged to the other side to protect their internal governance. This is the reasonable and necessary act of revoking the voting rights of those being evicted from the community.
+
+In the case of Steem/Hive or Ethereum/Ethereum Classic, there is no universal definition of “right” or “wrong” nor “appeal to authority”. Instead, the definition of “right” and “wrong” is encoded into the code and judged by each user when he or she chooses which code to adopt. The community of users of the respective chains is sovereign and their power is expressed by each individual’s choice to use one, both, or neither chain.
+  
+
+
+<div style="float:right;padding:15px">
+<a href="https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&amp;b=p_bu-ba-or" target="BookShop" style="display:inline-block; text-align: center; " title="More Equal Animals by Daniel Larimer"><img src="https://store.bookbaby.com/BookShop/CommonControls/BookShopThemes/bookshop/OnePageBookCoverImage.jpg?BookID=BK90050700" alt="Book Cover Image" width="110" height="160" style="position: relative; top: 20px;"></a>
+</div>
+
+In my book, [“More Equal Animals - The Subtle Art of True Democracy”](https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&b=p_bu-ba-or), I explore how all law and authority is ultimately derived from nature. Within nature, “might makes right”. Communities of people cooperating are stronger together than the same community acting without coordination. All of our “rights” and “property” only exist to the extent that we as individuals can defend them by working together against other groups of individuals looking to “violate our rights”. In order to work together to defend our rights, we need a means of reaching consensus. Powerful communities are composed of members who generally support the consensus outcome even if they have a different opinion. They work “within” the system to change things and in exchange, their community has stronger cohesion and power. This works until the consensus process itself is corrupted to serve the needs of the few.
+
+The key to defending against tyranny, and the reason blockchains exist, is to defend the people’s ability to achieve a new consensus that is truly representative of a population of voluntary users. Tyrants work to prevent a population from reaching a new consensus that would remove their power by utilizing the tactics of division, censorship, collusion, corruption, and/or outright fraud. It is through these processes that “democratic” countries are captured and turn into covert (or overt) tyrannies that operate without the approval of the majority of the population. Despite universal agreement that the existing consensus is “flawed”, the population is unable to effectively organize around a new consensus and therefore are subject to the tyranny of the status quo.
+
+One of the principles outlined in “More Equal Animals” is that all true democracies must support the right of secession. An individual must maintain the ability to secede from the group *and* the group must maintain the ability to secede from the individual. Without the right of secession, there can be no certainty that consent is voluntary, and without the option for voluntary consent, provided by the right of secession, there can be no “legitimacy” to a consensus formed under such conditions. All that remains absent voluntary consent, is raw power under the law of the jungle.
+
+From this perspective, it is not “theft” for a community to utilize its sovereign legislative and revolutionary consensus processes to reallocate blockchain assets. Anyone who disagrees with the “legislative” laws is free to leave by selling their tokens or creating their own secession/revolutionary movement (like Hive). A blockchain governed by an unpredictable and unreasonable legislative process will see a migration away to other chains. A blockchain that effectively wields reasonable and predictable subjective power for the good of the community may attract people. This is the power behind the “intent of code is law”. Not everyone likes the cold consensus of immutable “code is law” and they welcome the “safety” of a subjective consensus process.
+
+The “citizens” being “banished” or “excommunicated” from a community may protest and suffer a loss of influence and material well-being. In this case, they may seek revenge under the law of the jungle to reverse the banishment or recover assets. In the blockchain world, these actions often take the form of lawsuits filed against other community members. The goal of the lawsuit is to apply the full force of government coercion against individual “citizens” because of their “sovereign” actions in a blockchain community. This is like a banished king fleeing to a neighboring country and rallying their support for a special ops team to infiltrate and overthrow their prior kingdom.
+
+Everyone in the blockchain space needs to align behind the sovereignty of blockchain consensus, whether achieved via “on-chain legislation” or via “off-chain hard forking revolution”. We can allow the free market and voluntary association to determine which sovereign communities prosper through a growing economy and currency and which “banana blockchains” decline through a loss of their citizens who immigrate to better-governed communities. If we instead opt to invite existing governments in to resolve disputes among members of our blockchain communities then we undermine all efforts to free ourselves via voluntary participation in new community-driven consensus processes.
+
+Respect for the sovereignty of blockchain consensus is the most fundamental and universal principle that every blockchain user must support. It would be a tragedy if we allowed the corrupt governments that motivated Satoshi to create Bitcoin to define the community consensus rules by threatening those who choose to exercise their freedom of speech and freedom association to effect change in the world. We must not legitimize the use of government courts to resolve disputes regarding an individual or group’s voluntary on-chain actions. We must not undermine the intended independence of blockchain communities by encouraging existing governments to enforce their interpretation and imputation of the meaning of community agreements.
+
+## block.one & EOS
+
+<img width="50%" src="/assets/img/digital-deal.jpg" style="float:right;padding:8px"/>
+
+Over the past several months I have heard many people suggest that block.one has not been living up to their expectations and, therefore, that their tokens or vesting tokens should be revoked or repurposed. This situation is not helped by the fact that the intent of the social contract and expectations of block.one by the community are ambiguous and varied.
+
+I have been working with the EOS community to utilize the revolutionary governance process from my book to elect hundreds of vetted and trusted representatives to allocate funds to build the EOS ecosystem. We call this governance process Eden OS (defining the E in EOS). Almost everyone I have talked to in the community has expressed support for Eden, and my developers have been working to build the technological infrastructure to make it possible. This infrastructure should be complete and the first elections held this summer.
+
+I have also been talking with Brendan Blumer about block.one funding the Eden community utilizing their EOS and have received strong indications that he desires to support Eden with ample funding while it matures. I believe that the most unifying and positive path forward is for block.one to voluntarily support Eden using their EOS. This will decentralize ownership of EOS while preventing the need for inflation to fund community development for at least 7 years. Most importantly this will build community unity and create positive momentum for EOS. For the sake of the community, I hope that block.one will publicly commit to a plan to fund Eden in order to meet the very real needs of the community for transparency and certainty regarding what they are receiving in exchange for the hundreds of millions of dollars of vesting EOS allocated to block.one when the community launched the chain.
+
+That said, due to the principles laid out in this post, I believe the block producers are vested with the power to subjectively interpret the intent of the vesting restrictions placed on block.one’s tokens. If they chose to secede from block.one and repurpose the vesting tokens then I would support the legitimacy of the action while simultaneously disagreeing with such a move given Brendan’s expressed intent to voluntarily support the Eden community. I believe that the community would be stronger by working with block.one to fund Eden rather than creating unnecessary fear, uncertainty, and doubt about EOS within the crypto community. For this reason, I hope that any block producers reading this post carefully consider my opinion before taking potentially unnecessary, far-reaching, and potentially unproductive actions.
+
+
+## A Vision for Eden on EOS
+
+<img width="50%" src="/assets/img/human-robo-globe.jpg" style="float:right;padding:8px"/>
+
+This vision presents a strategy to fund several hundred people to build and promote EOS and projects on the EOS network. It leverages the unique advantages brought by block.one and those brought by a robust decentralized community building on EOS.
+
+EOS has a unique opportunity to be the first blockchain community to leverage EdenOS’s implementation of true democracy to securely direct funds to the community-driven projects that need them the most. It does this by appointing 100’s of people and giving them authority over a limited budget. If everything goes according to design then EOS could become one of the most robustly funded communities in the crypto space.
+
+The Eden election process is designed to ensure integrity with several techniques including provably unique real human participation and the vetting of all new members to the community by existing members. This means that the Eden election process is much more immune to common sybil attacks as well as immune from the collusion of insiders to extract community wealth for private gain without consequence.
+
+The question I have been asking myself is what is the safest and most robust way to test this experimental process and ensure that corruption doesn’t unexpectedly overwhelm the system? In the long run, if the system works as I believe it should, then the EOS community could fund continuous ongoing community growth and development by allocating 10 to 20 million EOS per year (about $50m to $100m at today’s prices) to community governance.
+
+The safest, least controversial, way to fund the Eden community is for Block.one to utilize their EOS stake to fund the elected Eden community representatives. This would represent a budget of about 800,000 EOS per month and elections would be hosted every 6 months. I could work with Block.one to ensure that the community governance is operating as designed and that no one is taking advantage of the system in an unexpected and unrecoverable manner. As long as Eden is operating within design parameters it would continue to receive funding. In the unexpected event that Eden is systemically corrupted then I would work to design and implement new countermeasures to protect community funding. Block.one would then be able to redirect the remaining funds to an improved system if necessary.
+
+  
+
+To truly test the power of Eden it is necessary to have enough money on the line to motivate people to push the limits. With millions of EOS per election, there is over $50 million dollars per year up for grabs to be used for development and also at risk to those attempting to exploit the community. Of the 4.8 million EOS per election, 1.6m EOS would be granted to individual elected to the position of “Satoshi”, 160k EOS would be given to each of the top 10 representatives, and 16,000 EOS would be given to the top 100 representatives out of a total of over 1000 Eden community members.
+
+  
+
+In total 100 people could receive enough funds to work full time or fund someone else to work full time. 10 people could receive enough funds to hire a small high-quality development team, while the elected “Satoshi” would receive a budget capable of funding a dozen different teams. In total, the community would be able to utilize the funding to empower 200-300 people to advance the adoption of EOS.
+
+  
+
+I believe that this outcome would ignite a renaissance in the EOS community and potentially have a far-reaching impact on how everyone cooperates to secure life, liberty, property, and justice for all.
+
+<center>
+<a href="https://store.bookbaby.com/book/More-Equal-Animals">
+<img src="/assets/img/MoreEqualAnimalsCover.jpg" width="50%"/>
+</a><br/>
+
+<a href="https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&amp;b=c_bu-bu-or" target="BookShop" style="display: inline-block; text-align: center; background: url('https://www.bookbaby.com/bnb/c/bu-bu-or.png') 0 0 no-repeat; background-size: 124px; width: 124px; height: 40px;" title="More Equal Animals by Daniel Larimer"></a>
+<br/><br/>
+</center>
