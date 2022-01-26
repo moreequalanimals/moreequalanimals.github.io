@@ -5,7 +5,7 @@ tags: government economics book
 ---
 
 
-<div style="float:right;padding:15px">
+<div style="float: left; margin-left:-5em; padding-right: 1.5em;">
 <a href="https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=More-Equal-Animals&amp;b=p_bu-ba-or" target="BookShop" style="display:inline-block; text-align: center; " title="More Equal Animals by Daniel Larimer"><img src="https://store.bookbaby.com/BookShop/CommonControls/BookShopThemes/bookshop/OnePageBookCoverImage.jpg?BookID=BK90050700" alt="Book Cover Image" width="110" height="160" style="position: relative; top: 20px;"></a>
 </div>
 
